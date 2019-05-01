@@ -56,11 +56,13 @@ We are focusing only on tags at a minor allele frequency (MAF) > 1% and an r2 > 
 
 Code for this and implementing the analysis on the NIH Biowulf Cluster (https://hpc.nih.gov) can be found in this repository.
 
+As a quick note, PLINKv1.9 (https://www.cog-genomics.org/plink2) was used for all LD comparisons w/in superpopulations (r2 > 0.2 w/in 1MB windows), it was also used for allele frequency calcs.
+
 Summary statistics from this analysis are downloadable from the following link here.
 
 #### Component 3: Dense Tagging of GWAS regions.
 
-Using PLINKv1.9 (https://www.cog-genomics.org/plink2), we identified tag SNPS per GWAS hit of interest for each disease of interest included in the following publications:  
+Using PLINKv1.9, we identified tag SNPS per GWAS hit of interest for each disease of interest included in the following publications:  
 Jansen et al, 2019 https://www.nature.com/articles/s41588-018-0311-9  
 Kunkle et al, 2019 https://www.nature.com/articles/s41588-019-0358-2  
 Nalls et al, 2019 https://www.biorxiv.org/content/10.1101/388165v3.article-info  
