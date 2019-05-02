@@ -47,3 +47,5 @@ These were launched using the commands below.
 swarm -f calcR2.sh --module plink -g 120 -t 12 -b 6
 swarm -f calcFreqs.sh --module plink -g 120 -t 12 - b 6
 ```
+
+## Now format the freq and r2 putputs for running TagIt
