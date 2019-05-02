@@ -62,5 +62,29 @@ mv *.biallelic_PASS_MAC3.nosex /data/CARD/projects/globoNeuroBuild/
 
 ## Set up TagIt since not preinstalled on biowulf then run the example
 Build it
+```
+sinteractive -g 120
+module load R
+module load plink
+cd /data/CARD/projects/globoNeuroBuild/TagIt-master/src/
+make all
+# now get the help
+./tagit --help
+```
+Note, momentary halt in work as TagIt crashes at install on biowulf, but Mike contacted HPC
+```
+g++ -std=c++11 -Wall -isystem/usr/include -g -c -o GzipReader.o GzipReader.cpp
+In file included from include/Reader.h:4:0,
+                 from include/GzipReader.h:4,
+                 from GzipReader.cpp:1:
+/usr/local/GCC/7.3.0/include/c++/7.3.0/cstdlib:75:15: fatal error: stdlib.h: No such file or directory
+ #include_next <stdlib.h>
+               ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [GzipReader.o] Error 1
+make[1]: Leaving directory `/gpfs/gsfs9/users/CARD/projects/globoNeuroBuild/TagIt-master/src/reader'
+make: *** [applibs] Error 1
+
+```
 
 ## Now format the freq and r2 putputs for running TagIt
