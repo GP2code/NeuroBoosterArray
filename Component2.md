@@ -47,5 +47,20 @@ These were launched using the commands below.
 swarm -f calcR2.sh --module plink -g 120 -t 12 -b 6
 swarm -f calcFreqs.sh --module plink -g 120 -t 12 - b 6
 ```
+## For the sake of house keeping, we moved all the working data to /data/CARD/projects/globoNeuroBuild/
+```
+mv ./r2s/ /data/CARD/projects/globoNeuroBuild/
+mv ./freqs/ /data/CARD/projects/globoNeuroBuild/
+mv *.ids /data/CARD/projects/globoNeuroBuild/
+mv *.biallelic_PASS_MAC3.log /data/CARD/projects/globoNeuroBuild/
+mv *.biallelic_PASS_MAC3.bed /data/CARD/projects/globoNeuroBuild/
+mv *.biallelic_PASS_MAC3.bim /data/CARD/projects/globoNeuroBuild/
+mv *.biallelic_PASS_MAC3.fam /data/CARD/projects/globoNeuroBuild/
+mv *.biallelic_PASS_MAC3.nosex /data/CARD/projects/globoNeuroBuild/
+
+```
+
+## Set up TagIt since not preinstalled on biowulf then run the example
+Build it
 
 ## Now format the freq and r2 putputs for running TagIt
