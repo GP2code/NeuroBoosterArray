@@ -1,0 +1,87 @@
+cd /data/CARD/projects/globoNeuroBuild/
+mkdir ./scratch
+plink --bfile AAC.chr22.phase3_v5a.biallelic_PASS_MAC3 --recode vcf --out ./scratch/test
+vcftools --freq --vcf ./scratch/test.vcf --out testFreq
+vcftools --vcf ./scratch/test.vcf --geno-r2 --ld-window-bp 1000000 --min-r2 0.2 
+plink --maf 0.01 --r2 with-freqs gz --ld-window-kb 1000 --ld-window-r2 0.2 --bfile AAC.chr22.phase3_v5a.biallelic_PASS_MAC3 --out testPlinkLd
+### now in R
+R
+library(data.table)
+data <- fread("testPlinkLd.ld.gz", header = T)
+data$MARKER1 <- data$SNP_A
+data$MARKER2 <- data$SNP_B
+data$AF1 <- data$MAF_A
+data$AF2 <- data$MAF_B
+data$R <- sqrt(data$R2)
+dat <- data[,c("MARKER1","MARKER2","AF1","AF2","R2","R")]
+names(dat)[1] <- "#MARKER1"
+fwrite(dat, "test.pairLD.txt", quote = F, sep = "\t", row.names = F, na = NA)
+q("no")
+gzip test.pairLD.txt
+
+
+plink --bfile AFR.chr22.phase3_v5a.biallelic_PASS_MAC3 --recode vcf --out ./scratch/test2
+vcftools --freq --vcf ./scratch/test2.vcf --out test2Freq
+plink --maf 0.01 --r2 with-freqs gz --ld-window-kb 1000 --ld-window-r2 0.2 --bfile AFR.chr22.phase3_v5a.biallelic_PASS_MAC3 --out test2PlinkLd
+### now in R
+R
+library(data.table)
+data <- fread("test2PlinkLd.ld.gz", header = T)
+data$MARKER1 <- data$SNP_A
+data$MARKER2 <- data$SNP_B
+data$AF1 <- data$MAF_A
+data$AF2 <- data$MAF_B
+data$R <- sqrt(data$R2)
+dat <- data[,c("MARKER1","MARKER2","AF1","AF2","R2","R")]
+names(dat)[1] <- "#MARKER1"
+fwrite(dat, "test2.pairLD.txt", quote = F, sep = "\t", row.names = F, na = NA)
+q("no")
+gzip test2.pairLD.txt
+
+### test run
+tagit --af testFreq.frq test2Freq.frq --ld test.pairLD.txt.gz test2.pairLD.txt.gz --r2 0.5 --out-summary testSummary.txt.gz --out-tagged testTagged.txt.gz --out-tags testTags.txt.gz
+
+cd /data/CARD/projects/globoNeuroBuild/TagIt-master/TEST_DATA/
+tagit --af Data/AFR.chr20.phase1_release_v3.20101123.freq Data/EUR.chr20.phase1_release_v3.20101123.freq --ld Data/AFR.chr20.phase1_release_v3.20101123.r2_0.7.pairLD.txt.gz Data/EUR.chr20.phase1_release_v3.20101123.r2_0.7.pairLD.txt.gz --r2 0.3 --out-summary summary.txt.gz --out-tagged tagged.txt.gz --out-tags tags.txt.gz
+
+
+### try weird names
+R
+library("data.table")
+mapRaw <- fread("AAC.chr22.phase3_v5a.biallelic_PASS_MAC3.bim", header = F)
+names(mapRaw) <- c("CHR","SNP","CM","BP","MINOR","MAJOR")
+mapRaw$Name <- paste(mapRaw$CHR,":", mapRaw$BP, "_", mapRaw$MINOR, "/", mapRaw$MAJOR, "_", mapRaw$SNP, sep = "")
+mapReduced <- mapRaw[,c("SNP","Name")]
+LD <- fread("testPlinkLd.ld.gz", header = T)
+dataTemp <- merge(LD, mapReduced, by.x = "SNP_A", by.y = "SNP")
+data <- merge(dataTemp, mapReduced, by.x = "SNP_B", by.y = "SNP")
+data$MARKER1 <- data$Name.x
+data$MARKER2 <- data$Name.y
+data$AF1 <- data$MAF_A
+data$AF2 <- data$MAF_B
+data$R <- sqrt(data$R2)
+dat <- data[,c("MARKER1","MARKER2","AF1","AF2","R2","R")]
+names(dat)[1] <- "#MARKER1"
+fwrite(dat, "test.pairLD.txt", quote = F, sep = "\t", row.names = F, na = NA)
+q("no")
+gzip test.pairLD.txt
+
+R
+library("data.table")
+mapRaw <- fread("AFR.chr22.phase3_v5a.biallelic_PASS_MAC3.bim", header = F)
+names(mapRaw) <- c("CHR","SNP","CM","BP","MINOR","MAJOR")
+mapRaw$Name <- paste(mapRaw$CHR,":", mapRaw$BP, "_", mapRaw$MINOR, "/", mapRaw$MAJOR, "_", mapRaw$SNP, sep = "")
+mapReduced <- mapRaw[,c("SNP","Name")]
+LD <- fread("test2PlinkLd.ld.gz", header = T)
+dataTemp <- merge(LD, mapReduced, by.x = "SNP_A", by.y = "SNP")
+data <- merge(dataTemp, mapReduced, by.x = "SNP_B", by.y = "SNP")
+data$MARKER1 <- data$Name.x
+data$MARKER2 <- data$Name.y
+data$AF1 <- data$MAF_A
+data$AF2 <- data$MAF_B
+data$R <- sqrt(data$R2)
+dat <- data[,c("MARKER1","MARKER2","AF1","AF2","R2","R")]
+names(dat)[1] <- "#MARKER1"
+fwrite(dat, "test2.pairLD.txt", quote = F, sep = "\t", row.names = F, na = NA)
+q("no")
+gzip test2.pairLD.txt
