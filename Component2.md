@@ -72,7 +72,7 @@ done
 See the script ```runTagIt.swarm``` in this repo.
 Run it with the line below.
 ```
-swarm -f runTagIt.swarm -g 240 -t 12 --module tagit --time 24:00:00
+swarm -f runTagIt.swarm --mem=120g --module tagit --time 24:00:00
 ```
 
 ###### Component 2 of the build is done now
