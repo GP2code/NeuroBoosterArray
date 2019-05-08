@@ -54,3 +54,15 @@ mv *.biallelic_PASS_MAC3.nosex /data/CARD/projects/globoNeuroBuild/
 See the swarm scripts in this repo ```calcR2.sh``` and ```calcFreqs.sh```. Modules on biowulf used were PLINK and VCFtools.
 
 ## Now format the r2 outputs for running TagIt
+This transforms everything from the standard plink outputs in a unique TagIt format.
+```
+for POP in AMR EAS EUR SAS AFR AAC
+do
+  for CHRNUM in {1..22}
+  do
+    echo "working on chromsome" $CHRNUM "for population" $POP
+    R CMD BATCH formatR2s.R $POP $CHRNUM
+    gzip $POP.chr$CHRNUM.pairLD.txt
+  done
+done
+```
