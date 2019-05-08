@@ -61,7 +61,7 @@ do
   for CHRNUM in {1..22}
   do
     echo "working on chromsome" $CHRNUM "for population" $POP
-    R CMD BATCH formatR2s.R $POP $CHRNUM
+    Rscript formatR2s.R $POP $CHRNUM
     gzip $POP.chr$CHRNUM.pairLD.txt
   done
 done
