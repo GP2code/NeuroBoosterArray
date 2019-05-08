@@ -66,6 +66,7 @@ Using PLINKv1.9, we identified tag SNPS per GWAS hit of interest for each diseas
 Jansen et al, 2019 https://www.nature.com/articles/s41588-018-0311-9  
 Kunkle et al, 2019 https://www.nature.com/articles/s41588-019-0358-2  
 Nalls et al, 2019 https://www.biorxiv.org/content/10.1101/388165v3.article-info  
+Iwaki et al, 2019 https://www.biorxiv.org/content/10.1101/585836v2  
 Nicolas et al, 2019 https://www.cell.com/neuron/abstract/S0896-6273(18)30148-X  
 Guerriero et al, 2018 http://www.thelancet.com/retrieve/pii/S1474442217304003  
 Hoglinger et al, 2011 https://www.ncbi.nlm.nih.gov/pubmed/21685912  
