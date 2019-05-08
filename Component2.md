@@ -39,18 +39,8 @@ do
 done
 ```
 
-## Time to calculate per superpopulation r2s and allele freqs
-Batch processing of these will be done using ```swarm``` on biowulf.  
-See the swarm scripts in this repo ```calcR2.sh``` and ```calcFreqs.sh```.
-These were launched using the commands below.
-```
-swarm -f calcR2.sh --module plink -g 120 -t 12 -b 6
-swarm -f calcFreqs.sh --module plink -g 120 -t 12 - b 6
-```
 ## For the sake of house keeping, we moved all the working data to /data/CARD/projects/globoNeuroBuild/
 ```
-mv ./r2s/ /data/CARD/projects/globoNeuroBuild/
-mv ./freqs/ /data/CARD/projects/globoNeuroBuild/
 mv *.ids /data/CARD/projects/globoNeuroBuild/
 mv *.biallelic_PASS_MAC3.log /data/CARD/projects/globoNeuroBuild/
 mv *.biallelic_PASS_MAC3.bed /data/CARD/projects/globoNeuroBuild/
@@ -60,31 +50,12 @@ mv *.biallelic_PASS_MAC3.nosex /data/CARD/projects/globoNeuroBuild/
 
 ```
 
-## Set up TagIt since not preinstalled on biowulf then run the example
-Build it
+## Time to calculate per superpopulation r2s and allele freqs
+See the swarm scripts in this repo ```calcR2.sh``` and ```calcFreqs.sh```.
+These were launched using the commands below.
 ```
-sinteractive -g 120
-module load R
-module load plink
-cd /data/CARD/projects/globoNeuroBuild/TagIt-master/src/
-make all
-# now get the help
-./tagit --help
-```
-Note, momentary halt in work as TagIt crashes at install on biowulf, but Mike contacted HPC
-```
-g++ -std=c++11 -Wall -isystem/usr/include -g -c -o GzipReader.o GzipReader.cpp
-In file included from include/Reader.h:4:0,
-                 from include/GzipReader.h:4,
-                 from GzipReader.cpp:1:
-/usr/local/GCC/7.3.0/include/c++/7.3.0/cstdlib:75:15: fatal error: stdlib.h: No such file or directory
- #include_next <stdlib.h>
-               ^~~~~~~~~~
-compilation terminated.
-make[1]: *** [GzipReader.o] Error 1
-make[1]: Leaving directory `/gpfs/gsfs9/users/CARD/projects/globoNeuroBuild/TagIt-master/src/reader'
-make: *** [applibs] Error 1
-
+swarm -f calcR2.sh --module plink -g 120 -t 12 -b 6
+swarm -f calcFreqs.sh --module plink -g 120 -t 12 - b 6
 ```
 
-## Now format the freq and r2 putputs for running TagIt
+## Now format the r2 outputs for running TagIt
