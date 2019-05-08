@@ -5,7 +5,7 @@ See the table in this repo ```GWAS_HITS.txt```
 Then we ran the standard PLINK tagging routine within each tag set per population per CHR. Run on biowulf witha ```sinteractive --mem=24g``` node. Also cut out SNPs with duplicate rsIDs in the loop.
 
 ```
-cut -f 1 GWAS_HITS.txt | sort | uniq > tagsToPlull.txt
+cut -f 1 GWAS_HITS.txt | sort | uniq > tagsToPull.txt
 for POP in AMR EAS EUR SAS AFR AAC
 do
   for CHRNUM in {1..22}
@@ -13,7 +13,7 @@ do
     echo "working on chromsome" $CHRNUM "for population" $POP
     cut -f 2 $POP.chr$CHR.phase3_v5a.biallelic_PASS_MAC3.bim | sort | uniq -d > ./tags/$POP.chr$CHR.dupeIdsToDrop.txt
     plink --bfile $POP.chr$CHR.phase3_v5a.biallelic_PASS_MAC3 --exclude ./tags/$POP.chr$CHR.dupeIdsToDrop.txt --make-bed --out ./tags/temp 
-    plink --bfile ./tags/temp --snps-only --show-tags tagsToPlull.txt --list-all --tag-r2 0.5 --tag-kb 1000 --out ./tags/$POP.chr$CHR.tagging
+    plink --bfile ./tags/temp --snps-only --show-tags tagsToPull.txt --list-all --tag-r2 0.5 --tag-kb 1000 --out ./tags/$POP.chr$CHR.tagging
   done
 done
 ```
