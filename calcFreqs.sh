@@ -250,19 +250,19 @@ vcftools --freq --vcf ./scratch/AMR.chr20.phase3_v5a.biallelic_PASS_MAC3.vcf --o
 vcftools --freq --vcf ./scratch/AMR.chr19.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr19.phase3_v5a.biallelic_PASS_MAC3
 vcftools --freq --vcf ./scratch/AMR.chr18.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr18.phase3_v5a.biallelic_PASS_MAC3
 vcftools --freq --vcf ./scratch/AMR.chr17.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr17.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr16.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr16.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr15.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr15.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr14.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr14.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr13.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr13.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr12.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr12.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr11.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr11.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr10.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr10.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr9.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr9.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr8.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr8.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr7.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr7.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr6.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr6.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr5.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr5.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr4.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr4.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr3.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr3.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr2.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr2.phase3_v5a.biallelic_PASS_MAC3
-vcftools --freq --vcf ./scratch/AMR.chr1.phase3_v5a.biallelic_PASS_MAC3.vcfAMR.chr1.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr16.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr16.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr15.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr15.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr14.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr14.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr13.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr13.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr12.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr12.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr11.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr11.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr10.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr10.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr9.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr9.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr8.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr8.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr7.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr7.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr6.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr6.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr5.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr5.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr4.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr4.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr3.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr3.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr2.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr2.phase3_v5a.biallelic_PASS_MAC3
+vcftools --freq --vcf ./scratch/AMR.chr1.phase3_v5a.biallelic_PASS_MAC3.vcf --out ./freqs/AMR.chr1.phase3_v5a.biallelic_PASS_MAC3
