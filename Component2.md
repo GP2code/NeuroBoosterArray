@@ -51,11 +51,6 @@ mv *.biallelic_PASS_MAC3.nosex /data/CARD/projects/globoNeuroBuild/
 ```
 
 ## Time to calculate per superpopulation r2s and allele freqs
-See the swarm scripts in this repo ```calcR2.sh``` and ```calcFreqs.sh```.
-These were launched using the commands below.
-```
-swarm -f calcR2.sh --module plink -g 120 -t 12 -b 6
-swarm -f calcFreqs.sh --module plink -g 120 -t 12 - b 6
-```
+See the swarm scripts in this repo ```calcR2.sh``` and ```calcFreqs.sh```. Modules on biowulf used were PLINK and VCFtools.
 
 ## Now format the r2 outputs for running TagIt
