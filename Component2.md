@@ -54,7 +54,7 @@ mv *.biallelic_PASS_MAC3.nosex /data/CARD/projects/globoNeuroBuild/
 See the swarm scripts in this repo ```calcR2.sh``` and ```calcFreqs.sh```. Modules on biowulf used were PLINK and VCFtools.
 
 ## Now format the r2 outputs for running TagIt
-This transforms everything from the standard plink outputs in a unique TagIt format.
+This transforms everything from the standard plink outputs in a unique TagIt format. The script formatR2s.R is in this repository as well.
 ```
 for POP in AMR EAS EUR SAS AFR AAC
 do
