@@ -2,7 +2,7 @@
 ###### On the NIH biowulf cluster in the directory ```/data/CARD/OTHER/1kgPhase3v5/``` after ```module load plink```
 
 ## Make plink binaries to speed things up per CHR
-Simple loop on 120 GB machine ```sinteractive -g 120``` to set it off.  
+Simple loop on 120 GB machine ```sinteractive --mem=48g``` to set it off.  
 Here we are filtering the data to PASS flagged variants that are also biallelic SNPs for all 2504 samples. 
 ```
 for CHRNUM in {1..22}
