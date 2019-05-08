@@ -63,6 +63,7 @@ do
     echo "working on chromsome" $CHRNUM "for population" $POP
     Rscript formatR2s.R $POP $CHRNUM
     gzip $POP.chr$CHRNUM.pairLD.txt
+    mv $POP.chr$CHRNUM.pairLD.txt.gz ./r2s
   done
 done
 ```
