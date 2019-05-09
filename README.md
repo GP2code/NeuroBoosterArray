@@ -29,12 +29,14 @@ Content for aims 2 and 3 will be triaged based on available array real-estate. W
 
 ### 4 design components
 
-#### Component 1: HGMD query plus KoL submitted variants.
+#### Component 1: HGMD systematic review, GenomicsEngland query, plus KoL submitted variants.
 
 First step in this phase is to query the Human Genome Mutation Database (HGMD, https://www.qiagenbioinformatics.com/products/human-gene-mutation-database/) and extract all coding changes tagged with neurodegenerative disease outcomes.
 ###### This is in progress and will likely be delivered the week of April 29th. We forecast ~11K variants in this subset of data.
 
-The second step is contact with KoLs. We will share the HGMD derived list with these individuals. We will allow them to add content to the list based on sequencing in familial samples, with preference to coding changes relating to risk for our diseases of interest.
+The second step is querying Genomics England disease-specific expert panels in concert with gnomad variant extraction.
+
+The third step is contact with KoLs. We will share the HGMD derived list with these individuals. We will allow them to add content to the list based on sequencing in familial samples, with preference to coding changes relating to risk for our diseases of interest.
 
 These KoLs include:  
 International Parkinson's Disease Genomics Consortium principal investigators.  
