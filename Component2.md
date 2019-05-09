@@ -40,7 +40,7 @@ do
   for CHRNUM in {1..22}
   do
     echo "working on chromsome" $CHRNUM "for population" $POP
-    plink --bfile ALL.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS --keep $POP.ids --mac 3 --make-bed --out $POP.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS_MAC3
+    plink --bfile ALL.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS_MAC3 --keep $POP.ids --mac 3 --make-bed --out $POP.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS_MAC3
   done
 done
 ```
