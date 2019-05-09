@@ -3,7 +3,7 @@
 
 ## Make plink binaries to speed things up per CHR
 Simple loop on 120 GB machine ```sinteractive --mem=48g``` to set it off.  
-Here we are filtering the data to PASS flagged variants that are also biallelic SNPs for all 2504 samples. 
+Here we are filtering the data to PASS flagged variants that are also biallelic SNPs for all 2504 samples w/out duplicate variant IDs. 
 ```
 for CHRNUM in {1..22}
 do
