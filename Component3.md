@@ -5,7 +5,6 @@ See the table in this repo ```GWAS_HITS.txt```
 Then we ran the standard PLINK tagging routine within each tag set per population per CHR. Run on biowulf witha ```sinteractive --mem=24g``` node. Also cut out SNPs with duplicate rsIDs in the loop.
 
 ```
-cut -f 1 GWAS_HITS.txt | sort | uniq > tagsToPull.txt
 for POP in AMR EAS EUR SAS AFR AAC
 do
   for CHRNUM in {1..22}
