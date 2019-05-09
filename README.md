@@ -4,7 +4,8 @@ Repo to track build of the "GloboNeuro" array, silly codename and all.
 
 ## Overall concept
 
-The overall concept is to make a content pack that will support the analysis of neurodegenerative disease (NDD) genetics. This will be in concert with Illumina ClinVar and PGX content packs regarding SNP selection.  
+The overall concept is to make a content pack that will support the analysis of neurodegenerative disease (NDD) genetics. 
+###### This will be in concert with Illumina ClinVar and PGX content packs regarding SNP selection. And a choice of either GSA or MEG back bones for primary content.
 
 Our NDDs of interest include:  
 Parkinson's disease (PD)  
