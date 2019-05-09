@@ -9,7 +9,7 @@ for CHRNUM in {1..22}
 do
   plink --vcf /data/CARD/OTHER/1kgPhase3v5/ALL.chr$CHRNUM.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz --biallelic-only strict --snps-only --vcf-filter --mac 3 --double-id --make-bed --out temp
   cut -f 2 temp.bim | sort | uniq -d > dupeIdsToDrop.txt
-  plink --bfile temp --exclude dupeIdsToDrop.txt --make-bed --out ALL.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS
+  plink --bfile temp --exclude dupeIdsToDrop.txt --make-bed --out ALL.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS_MAC3
   rm temp.bed
   rm temp.bim
   rm temp.fam
