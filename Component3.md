@@ -11,9 +11,7 @@ do
   for CHRNUM in {1..22}
   do
     echo "working on chromsome" $CHRNUM "for population" $POP
-    cut -f 2 $POP.chr$CHRNUM.phase3_v5a.biallelic_PASS_MAC3.bim | sort | uniq -d > ./tags/$POP.chr$CHRNUM.dupeIdsToDrop.txt
-    plink --bfile $POP.chr$CHRNUM.phase3_v5a.biallelic_PASS_MAC3 --exclude ./tags/$POP.chr$CHRNUM.dupeIdsToDrop.txt --make-bed --out ./tags/temp 
-    plink --bfile ./tags/temp --snps-only --show-tags tagsToPull.txt --list-all --tag-r2 0.5 --tag-kb 1000 --out ./tags/$POP.chr$CHRNUM.tagging
+    plink --bfile $POP.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS_MAC3.bim --snps-only --show-tags tagsToPull.txt --list-all --tag-r2 0.5 --tag-kb 1000 --out ./tags/$POP.chr$CHRNUM.tagging
   done
 done
 ```
