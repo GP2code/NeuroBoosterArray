@@ -3,11 +3,11 @@
 
 ## Make plink binaries to speed things up per CHR
 Simple loop on 120 GB machine ```sinteractive --mem=48g``` to set it off.  
-Here we are filtering the data to PASS flagged variants that are also biallelic SNPs for all 2504 samples w/out duplicate variant IDs. 
+Here we are filtering the data to PASS flagged variants that are also biallelic SNPs for all 2504 samples w/out duplicate variant IDs and the SNPs must have been seen at least 3 times. 
 ```
 for CHRNUM in {1..22}
 do
-  plink --vcf /data/CARD/OTHER/1kgPhase3v5/ALL.chr$CHRNUM.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz --biallelic-only strict --snps-only --vcf-filter --double-id --make-bed --out temp
+  plink --vcf /data/CARD/OTHER/1kgPhase3v5/ALL.chr$CHRNUM.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz --biallelic-only strict --snps-only --vcf-filter --mac 3 --double-id --make-bed --out temp
   cut -f 2 temp.bim | sort | uniq -d > dupeIdsToDrop.txt
   plink --bfile temp --exclude dupeIdsToDrop.txt --make-bed --out ALL.chr$CHRNUM.phase3_v5a.biallelic_snpsOnly_PASS
   rm temp.bed
