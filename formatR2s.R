@@ -14,7 +14,7 @@ thisChr <- as.character(args[7])
 
 prefix <- paste(thisPop, ".chr", thisChr, sep = "")
 
-mapIn <- paste(prefix, ".phase3_v5a.biallelic_PASS_MAC3.bim", sep = "")
+mapIn <- paste(prefix, ".phase3_v5a.biallelic_snpsOnly_PASS_MAC3.bim", sep = "")
 mapRaw <- fread(file = mapIn, header = F)
 names(mapRaw) <- c("CHR","SNP","CM","BP","MINOR","MAJOR")
 mapRaw$Name <- paste(mapRaw$CHR,":", mapRaw$BP, "_", mapRaw$MINOR, "/", mapRaw$MAJOR, "_", mapRaw$SNP, sep = "")
