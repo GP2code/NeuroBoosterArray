@@ -92,4 +92,4 @@ gzip allChromosomes.tagsTagit.txt
 
 ```
 
-###### Component 2 of the build is done now. The files above are in the repository and may be valuable for future array builds.
+###### Component 2 of the build is done now. The files above are in the google drive directory here [https://drive.google.com/drive/folders/16F6elvTueImY_BAr8Wgg2aegIgffJQS2?usp=sharing] and may be valuable for future array builds.
