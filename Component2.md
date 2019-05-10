@@ -70,4 +70,26 @@ Run it with the line below.
 swarm -f runTagIt.swarm -g 120 -t 8 --module tagit --time 24:00:00
 ```
 
-###### Component 2 of the build is done now
+## Clean up the outputs
+```
+# Summary files from TagIt
+
+echo -e "MARKER\tWEIGHT.ALL\tWEIGHT.UNIQUE\tAAC.WEIGHT\tAFR.WEIGHT\tAMR.WEIGHT\tEAS.WEIGHT\tEUR.WEIGHT\tSAS.WEIGHT" > allChromosomes.summaryTagit.txt && zcat chr*.summary.txt.gz  | grep ':' >> allChromosomes.summaryTagit.txt
+
+# Tag files from TagIt
+
+echo -e "MARKER\tWEIGHT.ALL\tWEIGHT.UNIQUE\tAAC.WEIGHT\tAFR.WEIGHT\tAMR.WEIGHT\tEAS.WEIGHT\tEUR.WEIGHT\tSAS.WEIGHT" > allChromosomes.tagsTagit.txt && zcat chr*.tags.txt.gz  | grep ':' >> allChromosomes.tagsTagit.txt
+
+# Tagged files from TagIt
+
+echo -e "MARKER\tAAC\tAFR\tAMR\tEAS\tEUR\tSAS" > allChromosomes.taggedTagit.txt && zcat chr*.tagged.txt.gz  | grep ':' >> allChromosomes.taggedTagit.txt
+
+# Compress for download
+
+gzip allChromosomes.taggedTagit.txt
+gzip allChromosomes.summaryTagit.txt
+gzip allChromosomes.tagsTagit.txt
+
+```
+
+###### Component 2 of the build is done now. The files above are in the repository and may be valuable for future array builds.
