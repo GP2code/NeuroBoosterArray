@@ -77,7 +77,7 @@ Ferrari et al, 2014 http://www.thelancet.com/retrieve/pii/S1474442214700651
 
 These GWAS hits are summarized in the table GWAShits.tab included in this repository.
 
-We identified most distal tag SNPs for each hit across all 6 super-populations. Then added 250 KB on each side of the most distal tag SNPs per overlapping region around each GWAS hit.
+We identified most distal tag SNPs for each hit across all 6 super-populations.
 
 These regions identified here are considered our priority regions.
 
