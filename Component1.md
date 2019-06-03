@@ -49,13 +49,12 @@ We have searched for mutations which includes the following terms in their "dise
 - Dystonia
 - Neuro
 - Lewy bodies
-
+- Autism
+- Schizophrenia
 
 We can possibily include the following "disease/phenotypes" as well:
-- Autism
 - Hearing loss
 - Phenylketonuria
-- Schizophrenia
 - Usher syndrome
 - Rubinstein-Taybi
 - Gangliosidosis
