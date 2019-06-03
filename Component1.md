@@ -127,7 +127,7 @@ If we further filter to just variants with rsIDs it goes to 21,612 variants.
 
 ## KOL variant submissions
 KOLs also submitted asianNDD, mito and additional pharmaco variants.
-These can be found in ```asianNDD.txt, mitoNDD.txt and pharmacoNDD.txt```.
+These can be found in ```Asian_*_variants.txt and pharmaco_variants.txt```. Mitochondrial variants are pending.
 
 ## PD risk PRS list
 See the file in this repo ```PD_PRS.txt```. SNP IDs are in gr37, CHR:BP format.
