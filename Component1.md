@@ -1,7 +1,6 @@
-## This component has 3 parts:
+## This component has 2 parts:
 #### 1. HGMD systematic review
-#### 2. Genomics Englnad exper panel gene lists
-#### 3. KOL SNP sumbissions
+#### 2. KOL SNP sumbissions
 
 ## HGMD systematic review
 Faraz systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below and Genomics England panel list. Similar to NeuroX and NeuroArray efforts.  
