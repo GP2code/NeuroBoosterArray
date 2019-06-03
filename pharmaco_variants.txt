@@ -1,0 +1,94 @@
+genes	SNP_ID	Fonction	MAFdbSNP	Disease/Phenotype
+MAOA	rs1137070 	Cod-syn	NA	Pharmacogenetics
+MAOA	rs2235186	tagSNP Intron	 0.243	Pharmacogenetics
+MAOA	rs3027396	tagSNP Intron	 0.308	Pharmacogenetics
+MAOB	rs1799836	 tagSNP Intron 13	NA	Pharmacogenetics
+MAOB	rs6651806	tagSNP Intron	0.31	Pharmacogenetics
+MAOB	rs5905512	tagSNP Intron	0.49	Pharmacogenetics
+COMT	rs4680	missense	A=0.3692	Pharmacogenetics
+DDC	rs11238138	tagSNP Intron	A=0.2314	Pharmacogenetics
+DDC	rs7785224	tagSNP Intron	T=0.3874	Pharmacogenetics
+DDC	rs3807566	tagSNP Intron	T=0.3534	Pharmacogenetics
+DDC	rs2198144	tagSNP Intron	C=0.3520	Pharmacogenetics
+DDC	rs7786398	tagSNP Intron	A=0.4898	Pharmacogenetics
+DDC	rs11974297	tagSNP Intron	A=0.4988	Pharmacogenetics
+DDC	rs10499695	tagSNP Intron	C=0.4621	Pharmacogenetics
+DDC	rs921451	tagSNP Intron	C=0.3466	Pharmacogenetics
+DDC	rs4947644 	Intron	 C=0.4147 	Pharmacogenetics
+SLC6A3(DAT1)	rs40184	tagSNP Intron	T=0.4137	Pharmacogenetics
+SLC6A3(DAT1)	rs11133767	tagSNP Intron	T=0.3187	Pharmacogenetics
+SLC6A3(DAT1)	rs27048	tagSNP Intron	T=0.3217	Pharmacogenetics
+SLC6A3(DAT1)	rs13161905	tagSNP Intron	T=0.1424	Pharmacogenetics
+SLC6A3(DAT1)	rs250681	tagSNP Intron	C=0.3918	Pharmacogenetics
+SLC6A3(DAT1)	rs4975646	tagSNP Intron	A=0.1348	Pharmacogenetics
+SLC6A3(DAT1)	rs2617605	tagSNP Intron	C=0.2566	Pharmacogenetics
+SLC6A3(DAT1)	rs2937639	tagSNP Intron	C=0.3784	Pharmacogenetics
+SLC6A3(DAT1)	rs27072	UTR-3	T=0.2051	Pharmacogenetics
+SLC6A3(DAT1)	rs27048	Intron	T=0.3217	Pharmacogenetics
+SLC6A3(DAT1)	rs10052016	Intron	G=0.1861	Pharmacogenetics
+SLC6A3(DAT1)	rs6350	Cod-syn	A=0.0455	Pharmacogenetics
+TH	rs2070762	tagSNP Intron	G=0.4235	Pharmacogenetics
+TH	rs6356	tagSNP missense	T=0.4305	Pharmacogenetics
+TH	rs10770141	tagSNP 5 near gene	A=0.3413	Pharmacogenetics
+VMAT2	rs363338	tagSNP Intron	T=0.4567	Pharmacogenetics
+VMAT2	rs363251	tagSNP Intron	G=0.4677	Pharmacogenetics
+VMAT2	rs11197936	tagSNP Intron	G=0.3363	Pharmacogenetics
+VMAT2	rs4752045	tagSNP Intron	G=0.4611	Pharmacogenetics
+VMAT2	rs363225	tagSNP Intron	T=0.4063	Pharmacogenetics
+VMAT2	rs363226	tagSNP Intron	G=0.2879	Pharmacogenetics
+SLC6A4(5-HTT)	rs4795541	LPR promoteur 44 bp	NA	Pharmacogenetics
+ADRA2C	rs7682295 		T=0.3856	Pharmacogenetics
+BDNF	rs6265	missense	T=0.2013	Pharmacogenetics
+DBH	rs1611115	near gene 5	T=0.2127	Pharmacogenetics
+DBH	rs1108580	Cod-syn	G=0.4299	Pharmacogenetics
+DRD1	rs5326	UTR-5	T=0.1697	Pharmacogenetics
+DRD1	rs4532	UTR-5	C=0.2446	Pharmacogenetics
+DRD1	rs265981	UTR-5	A=0.2314	Pharmacogenetics
+DRD2	rs1800497 	missense	A=0.3257	Pharmacogenetics
+DRD2	rs6277	Cod-syn	A=0.2440	Pharmacogenetics
+DRD3	rs6280	missense	C=0.4864	Pharmacogenetics
+DRD3	rs167771	Intron	G=0.4113	Pharmacogenetics
+DRD4	rs1800955	near gene 5	C=0.4058	Pharmacogenetics
+DRD4	rs11246226	near gene 3	C=0.4772	Pharmacogenetics
+DRD4	rs11246228		C=0.4139	Pharmacogenetics
+GRIN2B	rs7301328	Cod-syn	A=0.4413	Pharmacogenetics
+GRIN2B	rs1806201	Cod-syn	A=0.3033	Pharmacogenetics
+GRIN2B	rs1019385	near gene 5	A=0.4287	Pharmacogenetics
+HTR1A	rs6295	near gene 5	C=0.4533	Pharmacogenetics
+HTR1A	rs6449693	tagSNP	G=0.3512	Pharmacogenetics
+HTR1B	rs6296	Cod-syn	G=0.3381	Pharmacogenetics
+HTR1B	rs13212041	UTR-3	C=0.2847	Pharmacogenetics
+HTR1B	rs6298	tagSNP	A=0.3407	Pharmacogenetics
+HTR1B	rs130058	tagSNP	A=0.1841	Pharmacogenetics
+HTR1B	rs17273700	tagSNP	G=0.3051	Pharmacogenetics
+HTR2A	rs6313	Cod-syn	G=0.3381	Pharmacogenetics
+HTR2A	rs6311	near gene 5	T=0.4435	Pharmacogenetics
+HTR2C	rs12858300	tagSNP		Pharmacogenetics
+HTR2C	rs12853568	tagSNP		Pharmacogenetics
+HTR2C	rs4338289	tagSNP		Pharmacogenetics
+HTR2C	rs5946199	tagSNP		Pharmacogenetics
+OPRK1	rs702764	Cod-syn	C=0.2446	Pharmacogenetics
+OPRM1	rs1799971	Intron	G=0.2234	Pharmacogenetics
+SLC6A2	rs998424	Intron	A=0.2294	Pharmacogenetics
+TPH1	rs1799913	Intron	T=0.3211	Pharmacogenetics
+TPH1	rs1800532	Intron	T=0.3211	Pharmacogenetics
+TPH2	rs6582078	Intron	G=0.4503	Pharmacogenetics
+TPH2	rs1352250	Intron	G=0.4702	Pharmacogenetics
+NPTX2	rs12630592	Intron	G=0.4123	Pharmacogenetics
+NPTX2	rs11971348	tagSNP Intron	C=0.0929	Pharmacogenetics
+NPTX2	rs705318	tagSNP Intron	T=0.4918	Pharmacogenetics
+ DLG4	rs2017365	UTR-5	G=0.394	Pharmacogenetics
+ DLG4	rs3826408	Intron	T=0.429	Pharmacogenetics
+ DLG4	rs17203281	Cod-syn	A=0.305	Pharmacogenetics
+ DLG4	rs390200	UTR-5	G=0.447	Pharmacogenetics
+GRIP1	rs7397862	Intron	A=0.43	Pharmacogenetics
+GSK3B	rs12630592	Intron	G=0.33	Pharmacogenetics
+HOMER1	rs4323213	Intron	T=0.3985	Pharmacogenetics
+HOMER1	rs4704560	near gene 5	C=0.353	Pharmacogenetics
+SHANK3	rs9616915	missense	0.491	Pharmacogenetics
+SLC12A5(KCC2)	rs355567443	near gene 5	0.2793	Pharmacogenetics
+SLC12A5(KCC2)	rs6073989	Intron	0.2134	Pharmacogenetics
+SLC12A5(KCC2)	rs8125780	near gene 5	0.2491	Pharmacogenetics
+SLC12A5(KCC2)	rs9074	UTR-3	0.2271	Pharmacogenetics
+SLC1A2(EAAT2)	rs4354668	UTR-5	0.41	Pharmacogenetics
+SLC1A2(EAAT2)	rs1885343	Intron	0.371	Pharmacogenetics
