@@ -4,8 +4,8 @@
 #### 3. KOL SNP sumbissions
 
 ## HGMD systematic review
-Faraz systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below. Similar to NeuroX and NeuroArray efforts.  
-Spreadsheet is in this repo as ```HGMD 2019-1 scrape draft3.xlsx```.
+Faraz systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below and Genomics England panel list. Similar to NeuroX and NeuroArray efforts.  
+Spreadsheet is in this repo as ```HGMD crawl - disease and gene based - v4```.
 
 Used HGMD version: 2019-1
 
@@ -14,9 +14,9 @@ Excel file includes two sheets:
 2. Nucleotide Deletions,Insertions and Indels
 
 ### Count
-Nucleotide Substitutions = 26,541
-Nucleotide Deletions,Insertions and Indels = 8,617
-**Total variants = 35,158**
+Nucleotide Substitutions = 69,809
+Nucleotide Deletions,Insertions and Indels = 20,082
+**Total variants = 89,891**
 
 ### Method
 
@@ -84,14 +84,9 @@ We can possibily include the following "disease/phenotypes" as well:
 - Corticobasal
 - Tourette syndrome
 
-### Space concerns versus annotations
-It is likely that we will have to exclude the variants annotated with class "DM?" based on lack of evidence and INDELS due to array design issues.
-This would bring the count down from 35,158 to 26,149.
-If we further filter to just variants with rsIDs it goes to 10,268 variants.
+### Genomics England expert panel mining
 
-## Genomics England expert panel mining
 Data pull for Genomics England panels from May 9th 2019.
-Evident in the file in this repo ```genomicsEnglandPanels_May9th2019.zip```
 Genes from the following diseases were extracted if they met the "Expert Review Green":
 - Amyotrophic lateral sclerosis_motor neuron disease
 - Early onset dementia (encompassing fronto-temporal dementia and prion disease)
@@ -122,13 +117,18 @@ sort -u -k1,1 str.tab > strUniq.tab
 ```
 After filtering out duplicate gene and STR names, we get down to 590 candidate NDD genes and 17 STRs.
 
-#### Next step is to pul coding changes at < 5% in gnomad [https://gnomad.broadinstitute.org] for all of these genes using all data.
+Additional lysosomal storage disorder genes added by KoLs. We requeried HGMD includign these genes.
+
+#### In total we queried 625 genes in the file ```geneList.csv``` during the HGMD pull.
+
+### Space concerns versus annotations
+It is likely that we will have to exclude the variants annotated with class "DM?" based on lack of evidence and INDELS due to array design issues.
+This would bring the count down from almost 90K to 55,712.
+If we further filter to just variants with rsIDs it goes to 21,612 variants.
 
 ## KOL variant submissions
-List circulated to KOLs May 8th 2019, with a 2 week limit to add any variants desired in a similar format.  
-Submissions of ancillary variants due to Mike Nalls by Wednesday May 22nd at CoB eastern US time.
-This list is ```HGMD_to_collabs.txt``` and includes only a limited number of fields.
-KOLs must justify variants.
+KOLs also submitted asianNDD, mito and additional pharmaco variants.
+These can be found in ```asianNDD.txt, mitoNDD.txt and pharmacoNDD.txt```.
 
 ## PD risk PRS list
 See the file in this repo ```PD_PRS.txt```. SNP IDs are in gr37, CHR:BP format.
