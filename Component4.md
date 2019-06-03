@@ -18,9 +18,9 @@
 
 1. Risk variants = 2K
 2. Pharmaco-genetic variants = 5K
-3. HGMD pull (filtered down)
--Disease pull filtered down to just DM flagged variants with RSIDs = 10K variants
--Gene based pull from Genomics England panels filtered down to just DM flagged variants with RSIDs = XK variants
+3. HGMD pull (filtered down)  
+-Disease pull filtered down to just DM flagged variants with RSIDs = 10K variants   
+-Gene based pull from Genomics England panels filtered down to just DM flagged variants with RSIDs = XK variants  
 4. KOL content = 2K variants
 5. NDD locus tagging variants = 50% of remainder bead types
 6. General imputation booster = other 50% of remainder bead types
@@ -28,9 +28,9 @@
 ## Filtering for MEG
 1. Risk variants = 2K
 2. Pharmaco-genetic variants = 5K
-3. HGMD pull (filtered down)
--Disease pull filtered down to just DM flagged variants = 25K variants
--Gene based pull from Genomics England panels filtered down to just DM flagged variants = XK variants
+3. HGMD pull (filtered down)  
+-Disease pull filtered down to just DM flagged variants = 25K variants  
+-Gene based pull from Genomics England panels filtered down to just DM flagged variants = XK variants  
 4. KOL content = 2K variants
 5. NDD locus tagging variants = 50% of remainder bead types
 6. General imputation booster = other 50% of remainder bead types
