@@ -5,15 +5,15 @@
 ## 2 content packs (different but compatible levels of filtering)
 
 1. NeuroGlobo_Basic - tuned for GSA - 50-80K SNPs  
-In order from most important to least
--GWAS hits (200 variants)
--HGMD variants (22K variants filtered for rsID, DM and not an indel)
--KOL variants (2K variants)
--NDD locus tagging variants (Sample across regions to fill out remaining beadpool)
+In order from most important to least  
+-GWAS hits (200 variants)  
+-HGMD variants (22K variants filtered for rsID, DM and not an indel)  
+-KOL variants (2K variants)   
+-NDD locus tagging variants (Sample across regions to fill out remaining beadpool)  
 
-2. NeuroGlobo_XL - tuned for MEG - NeuroGlobo_Basic + additional 50K
--Remainder of DM / non indel variants from HGMD (33K, ie those w/o rsIDs)
--Fill out the rest with additional NDD locus tagging variants
+2. NeuroGlobo_XL - tuned for MEG - NeuroGlobo_Basic + additional 50K  
+-Remainder of DM / non indel variants from HGMD (33K, ie those w/o rsIDs)  
+-Fill out the rest with additional NDD locus tagging variants  
 
 ## Mandatory content on both backbones
 
