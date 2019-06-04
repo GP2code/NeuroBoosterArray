@@ -32,6 +32,6 @@
 -Disease pull filtered down to just DM flagged variants = 25K variants  
 -Gene based pull from Genomics England panels filtered down to just DM flagged variants = XK variants  
 4. KOL content = 2K variants
-5. NDD locus tagging variants = 50% of remainder bead types
-6. General imputation booster = other 50% of remainder bead types
+5. NDD locus tagging variants = Remainder bead types
+6. General imputation booster = Not needed
 
