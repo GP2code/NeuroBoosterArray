@@ -19,5 +19,5 @@ In order from most important to least
 
 1. 2K variants for risk profiling from NDD GWAS studies
 2. HGMD extracted variants (differentially filtered for GSA and MEG arrays)
-3. KOL Content from Boniface Mok (Asian risk variants), Hjelm (mito), Houlden (rare populations) and JC Corvol (additional pharmaco genetic variants)
+3. KOL Content from Boniface Mok (Asian risk variants), Hjelm (mito), Houlden (rare populations), Morris (UCL additional) and JC Corvol (additional pharmaco genetic variants)
 
