@@ -18,3 +18,7 @@
 -Additional NDD locus tagging variants for locus saturation  
 
 ## Note: Janina is handling making the general impute booster for GSA. An impute booster is not needed for MEG. NDD locus tagging variants will be added prior to array build and are a random sampling of multi-ancestry tag SNPs across NDD GWAS loci.
+
+## To do (Mike):
+Add Craig and Narendra variants ~1.5K to each content pack 
+Drop Wolff-Parkinson-white syndrome variants from HGMD pulls
