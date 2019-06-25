@@ -10,6 +10,7 @@
 -Corvol lab additional pharmaco genomics variants (~100 variants) - Corvol.Additional_pharmaco_variants.txt  
 -Morris lab additional candidate variants (~60 variants) - Morris.Additional_UCL_variants.txt  
 -Hjelm lab mitochondrial variants (~60 variants) - Hjelm.Mito_variants.txt  
+-Zimprich familial variants (~40 variants) - Zimprich.Familial_variants.txt
 -NDD locus tagging variants (Sample across regions to fill out remaining beadpool, pending)  
 
 2. NeuroGlobo_XL - tuned for MEG - NeuroGlobo_Basic + additional 50K  (currently ~53K variants in ```xl_content```)  
