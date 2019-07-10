@@ -11,7 +11,10 @@
 -Morris lab additional candidate variants (~60 variants) - Morris.Additional_UCL_variants.txt  
 -Hjelm lab mitochondrial variants (~60 variants) - Hjelm.Mito_variants.txt  
 -Zimprich familial variants (~40 variants) - Zimprich.Familial_variants.txt  
--Billingsley transposons (~1K variants) - Billingsley.transposon_tagging_variants.csv
+-Kim and Abi transposons (~1K variants) - KimAndAbi.transposon_tagging_variants.csv  
+-Tubingen variants of interest (~60 variants) - Schulte.tubingen_variants.txt  
+-Narendra PARK2 variants (~40 variants) - Narendra.PARK2_variants.csv  
+-Craig lab NDD variants (~1K variants) - Craig.NDD_variants.csv   
 -NDD locus tagging variants (Sample across regions to fill out remaining beadpool, pending)  
 
 2. NeuroGlobo_XL - tuned for MEG - NeuroGlobo_Basic + additional 50K  (currently ~53K variants in ```xl_content```)  
@@ -20,7 +23,7 @@
 -Additional NDD locus tagging variants for locus saturation  
 
 ## Note: Illumina is handling making the general impute booster for GSA. An impute booster is not needed for MEG. NDD locus tagging variants will be added prior to array build and are a random sampling of multi-ancestry tag SNPs across NDD GWAS loci.
+Variant selection fitlering with ILMN tentatively begins the 18th. Product testing cannot begin until August.
 
 ## To do (Mike):
-Add Craig and Narendra variants ~1.5K to each content pack 
 Drop Wolff-Parkinson-white syndrome variants from HGMD pulls
