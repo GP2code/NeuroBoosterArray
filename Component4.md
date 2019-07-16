@@ -5,6 +5,7 @@
 -HGMD variants (~20K variants filtered for rsID, DM and not an indel, taken from Genomics England panel genes, KOL nominated genes and disease keywords) - NDD_HGMD_reduced.csv  
 -PD polygenic risk scoring variants (~2K variants) - NallsEtAl2019.PRS_gr37_PD.txt  
 -Houlden lab diverse population NDD variants, priority variants only (~200 variants) - Houlden.Diverse_NDD_priority.txt   
+-Houlden lab TTR + amyloid variants (~80 variants) - Houlden.anyloid_TTR_variants.csv   
 -Asian PD variants from the Hardy / Mok lab (~200 variants) - Mok.Asian_PD.txt   
 -Asian AD variants from the Hardy / Mok lab (~600 variants) - Mok.Asian_PD.txt  
 -Corvol lab additional pharmaco genomics variants (~100 variants) - Corvol.Additional_pharmaco_variants.txt  
