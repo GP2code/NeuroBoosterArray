@@ -1,0 +1,176 @@
+Mutation.type	HGMD_ID_or_other	dbsnp	Disease.Phenotype	Gene.symbol	Ensembl_ID	HGVS	Base.change	Triplet.change	Amino.Acid.change	Codon.number	Genomic.coordinates..GRCh37.hg19.	Strand	SIFT	Reference	priority
+non_coding_transcript_exon_variant	NA	rs118203885	MELAS / MM & EXIT	MT-TF	ENSG00000198888	NC_012920.1:m.583G>A	G583A	-	-	NA	MT:583	1	-		priority
+non_coding_transcript_exon_variant	NA	rs387906420	Maternally inherited epilepsy / kidney disease	MT-TF	ENSG00000198888	NC_012920.1:m.616T>C	T616C	-	-	NA	MT:616	1	-		priority
+non_coding_transcript_exon_variant	NA	NA	MM	MT-TF	ENSG00000198888	NC_012920.1:m.618T>C	T618C	-	-	NA	MT:618	1	-	Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	NA	Ptosis CPEO MM & EXIT	MT-TF	ENSG00000198888	NC_012920.1:m.618T>C	T618G	-	-	NA	MT:618	1	-		priority
+-	NA	NA	New mutation	MT-TF	ENSG00000198888	NC_012920.1:m.627G>A	G627A	-	-	NA	MT:627	1	-	Detected in NGN	priority
+non_coding_transcript_exon_variant	NA	rs267606619	DEAF	MT-RNR1	ENSG00000198888	NC_012920.1:m.1494C>T	C1494T	-	-	NA	MT:1494	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs267606617	DEAF	MT-RNR1	ENSG00000198888	NC_012920.1:m.1555A>G	A1555G	-	-	NA	MT:1555	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs199476143	AMDF	MT-TV	ENSG00000198888	NC_012920.1:m.1606G>A	G1606A	-	-	NA	MT:1606	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	NA	MNGIE-like disease / MELAS	MT-TV	ENSG00000198888	NC_012920.1:m.1630A>G	A1630G	-	-	NA	MT:1630	1	-	New in 2018	priority
+non_coding_transcript_exon_variant	NA	NA	HCM+MELAS	MT-TV	ENSG00000198888	NC_012920.1:m.1644G>A	G1644A	-	-	NA	MT:1644	1	-		priority
+non_coding_transcript_exon_variant	NA	NA	Adult Leigh Syndrome	MT-TV	ENSG00000198888	NC_012920.1:m.1644G>A	G1644T	-	-	NA	MT:1644	1	-		priority
+-	NA	rs199474657	MELAS / LS / DMDF / MIDD / SNHL / CPEO / MM / FSGS / ASD / Cardiac+multi-organ dysfunction	MT-TL1	ENSG00000198888	NC_012920.1:m.3243A>G	A3243G	-	-	NA	MT:3243	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs199474657	MM / MELAS / SNHL / CPEO	MT-TL1	ENSG00000198888	NC_012920.1:m.3243A>G	A3243T	-	-	NA	MT:3243	1	-	Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs199474662	MM	MT-TL1	ENSG00000198888	NC_012920.1:m.3251A>G	A3251G	-	-	NA	MT:3251	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	rs199474661	MELAS	MT-TL1	ENSG00000198888	NC_012920.1:m.3252A>G	A3252G	-	-	NA	MT:3252	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	rs199474661	EXIT	MT-TL1	ENSG00000198888	NC_012920.1:m.3252A>G	A3252T	-	-	NA	MT:3252	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	rs199474659	MELAS	MT-TL1	ENSG00000198888	NC_012920.1:m.3256C>T	C3256T	-	-	NA	MT:3256	1	-		priority
+non_coding_transcript_exon_variant	NA	NA	MELAS / Myopathy	MT-TL1	ENSG00000198888	NC_012920.1:m.3258T>C	T3258C	-	-	NA	MT:3258	1	-	New in 2018	priority
+non_coding_transcript_exon_variant	NA	rs199474663	MMC / MELAS	MT-TL1	ENSG00000198888	NC_012920.1:m.3260A>G	A3260G	-	-	NA	MT:3260	1	-	Seen in NGN cohort	priority
+-	NA	NA	PEM	MT-TL1	ENSG00000198888	NC_012920.1:m.3271T>l	T3271del	-	-	NA	MT:3270	1	-	New in 2019	priority
+-	NA	rs199474658	PEM	MT-TL1	ENSG00000198888	NC_012920.1:m.3271T>C	T3271del	-	-	NA	MT:3271	1	-	New in 2019	priority
+non_coding_transcript_exon_variant	NA	NA	MELAS / DM	MT-TL1	ENSG00000198888	NC_012920.1:m.3271T>l	T3271C	-	-	NA	MT:3270	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs199474658	MELAS / DM	MT-TL1	ENSG00000198888	NC_012920.1:m.3271T>C	T3271C	-	-	NA	MT:3271	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs199474666	Neuropsychiatric syndrome + cataract	MT-TL1	ENSG00000198888	NC_012920.1:m.3274A>G	A3274G	-	-	NA	MT:3274	1	-	Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	NA	Myopathy	MT-TL1	ENSG00000198888	NC_012920.1:m.3280A>G	A3280G	-	-	NA	MT:3280	1	-	New in 2018	priority
+non_coding_transcript_exon_variant	NA	rs869312463	MELAS / Myopathy / Deafness+Cognitive Impairment	MT-TL1	ENSG00000198888	NC_012920.1:m.3291T>C	T3291C	-	-	NA	MT:3291	1	-		priority
+non_coding_transcript_exon_variant	NA	NA	MM	MT-TL1	ENSG00000198888	NC_012920.1:m.3302A>G	A3302G	-	-	NA	MT:3302	1	-		priority
+non_coding_transcript_exon_variant	NA	rs199474660	MMC	MT-TL1	ENSG00000198888	NC_012920.1:m.3303C>T	C3303T	-	-	NA	MT:3303	1	-	Seen in NGN cohort	priority
+missense_variant	NA	rs397515612	LHON MELAS overlap	MT-ND1	ENSG00000198888	NC_012920.1:m.3376G>A	G3376A	Gaa/Aaa	E/K	NA	MT:3376	1	deleterious_low_confidence(0)	RARE LHON	priority
+-	COSM6716712	rs199476118	LHON	MT-ND1	ENSG00000198888	NC_012920.1:m.3460G>A	G3460A	Gcc/Acc	A/T	NA	MT:3460	1	deleterious_low_confidence(0)	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+missense_variant	NA	rs397515507	LHON	MT-ND1	ENSG00000198888	NC_012920.1:m.3635G>A	G3635A	aGc/aAc	S/N	NA	MT:3635	1	deleterious_low_confidence(0)	RARE LHON	priority
+missense_variant	COSM6119903	rs199476122	MELAS / LS / LDYT	MT-ND1	ENSG00000198888	NC_012920.1:m.3697G>A	G3697A	Ggc/Agc	G/S	NA	MT:3697	1	deleterious_low_confidence(0)	Seen in NGN cohort	priority
+missense_variant	NA	rs397515508	LHON	MT-ND1	ENSG00000198888	NC_012920.1:m.3700G>A	G3700A	Gca/Aca	A/T	NA	MT:3700	1	deleterious_low_confidence(0)	Seen in NGN cohort	priority
+missense_variant	NA	rs199476125	LHON	MT-ND1	ENSG00000198888	NC_012920.1:m.3733G>A	G3733A	Gaa/Aaa	E/K	NA	MT:3733	1	deleterious_low_confidence(0.01)	RARE LHON	priority
+missense_variant	NA	rs587776434	Progressive encephalomyopathy / LS / optic atrophy	MT-ND1	ENSG00000198888	NC_012920.1:m.3890G>A	G3890A	cGa/cAa	R/Q	NA	MT:3890	1	deleterious_low_confidence(0)		priority
+missense_variant	NA	NA	EXIT+myalgia / severe LA+cardiac / 3-MGA aciduria	MT-ND1	ENSG00000198888	NC_012920.1:m.3902A>C	3902_3908invACCTTGC	gAc/gCc	D/A	NA	MT:3902	1	deleterious_low_confidence(0)	New in 2018	priority
+missense_variant	COSM1138366	rs199476123	MELAS	MT-ND1	ENSG00000198888	NC_012920.1:m.3946G>A	G3946A	Gaa/Aaa	E/K	NA	MT:3946	1	deleterious_low_confidence(0)	Seen in NGN cohort	priority
+missense_variant	NA	rs28552781	New mutation	MT-ND1	ENSG00000198888	NC_012920.1:m.3955G>A	G3955A	Gca/Aca	A/T	NA	MT:3955	1	deleterious_low_confidence(0)	Detected in NGN	priority
+missense_variant	NA	NA	LHON	MT-ND1	ENSG00000198888	NC_012920.1:m.4171C>A	C4171A	Cta/Ata	L/M	NA	MT:4171	1	deleterious_low_confidence(0.04)	RARE LHON	priority
+non_coding_transcript_exon_variant	NA	rs121434466	FICP	MT-TI	ENSG00000198888	NC_012920.1:m.4269A>G	A4269G	-	-	NA	MT:4269	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	NA	CPEO / Motor Neuron Disease	MT-TI	ENSG00000198888	NC_012920.1:m.4274T>C	T4274C	-	-	NA	MT:4274	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	NA	Leigh Syndrome	MT-TI	ENSG00000198888	NC_012920.1:m.4296G>A	G4296A	-	-	NA	MT:4296	1	-	Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	NA	CPEO / MS	MT-TI	ENSG00000198888	NC_012920.1:m.4298G>A	G4298A	-	-	NA	MT:4298	1	-		priority
+non_coding_transcript_exon_variant	NA	rs121434470	MICM	MT-TI	ENSG00000198888	NC_012920.1:m.4300A>G	A4300G	-	-	NA	MT:4300	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	NA	CPEO	MT-TI	ENSG00000198888	NC_012920.1:m.4308G>A	G4308A	-	-	NA	MT:4308	1	-		priority
+non_coding_transcript_exon_variant	NA	rs199476141	Encephalopathy / MELAS	MT-TQ	ENSG00000198888	NC_012920.1:m.4332G>A	G4332A	-	-	NA	MT:4332	1	-		priority
+non_coding_transcript_exon_variant	NA	NA	Myopathy / MELAS	MT-TM	ENSG00000198888	NC_012920.1:m.4450G>A	G4450A	-	-	NA	MT:4450	1	-	New in 2019	priority
+non_coding_transcript_exon_variant	NA	rs199474673	Mitochondrial myopathy	MT-TW	ENSG00000198840	NC_012920.1:m.5521G>A	G5521A	-	-	NA	MT:5521	1	-	New in 2018	priority
+-	NA	NA	Leigh Syndrome	MT-TW	ENSG00000198840	NC_012920.1:m.5537A>T	A5537AT	-	-	NA	MT:5537	1	-		priority
+non_coding_transcript_exon_variant	NA	rs121434457	Myopathy	MT-TA	ENSG00000198840	NC_012920.1:m.5650G>A	G5650A	-	-	NA	MT:5650	1	-		priority
+non_coding_transcript_exon_variant	NA	NA	CPEO+ptosis+proximal myopathy	MT-TN	ENSG00000198840	NC_012920.1:m.5690A>G	A5690G	-	-	NA	MT:5690	1	-	New in 2018	priority
+non_coding_transcript_exon_variant	NA	rs199476130	CPEO / MM	MT-TN	ENSG00000198840	NC_012920.1:m.5703G>A	G5703A	-	-	NA	MT:5703	1	-	Seen in NGN cohort	priority
+stop_gained	NA	NA	New mutation	MT-CO1	ENSG00000198840	NC_012920.1:m.6579G>A	G6579A	-	-	NA	MT:6579	1	-	Detected in NGN	priority
+missense_variant	NA	NA	New mutation	MT-CO1	ENSG00000198840	NC_012920.1:m.7317A>G	A7317G	-	-	NA	MT:7317	1	-	Detected in NGN	priority
+stop_lost	NA	rs199474818	DEAF	MT-CO1	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	DEAF	MT-CO1	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	DEAF	MT-CO1	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_retained_variant	NA	rs199474818	SNHL	MT-TS1 precursor	ENSG00000198840	NC_012920.1:m.7445A>C	A7445G	-	-	NA	MT:7445	1	-	Seen in NGN cohort	priority
+stop_lost	NA	rs199474818	DEAF	MT-CO1	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	DEAF	MT-CO1	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	DEAF	MT-CO1	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	DEAF	MT-TS1 precursor	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	DEAF	MT-TS1 precursor	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	DEAF	MT-TS1 precursor	ENSG00000198840	NC_012920.1:m.7445A>C	A7445C	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+stop_lost	NA	rs199474818	SNHL	MT-TS1 precursor	ENSG00000198840	NC_012920.1:m.7445A>C	A7445T	-	-	NA	MT:7445	1	-	On Baylor 'common screen' by NGS	priority
+NA	NA	NA	PEM / AMDF / Motor neuron disease-like	MT-TS1	NA	NA	C7471insC	NA	NA	NA	NA	NA	NA	Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs387906419	MM / EXIT	MT-TS1	ENSG00000198840	NC_012920.1:m.7497G>A	G7497A	-	-	NA	MT:7497	1	-		priority
+non_coding_transcript_exon_variant	NA	rs199474820	SNHL	MT-TS1	ENSG00000198840	NC_012920.1:m.7510T>C	T7510C	-	-	NA	MT:7510	1	-	New in 2018	priority
+non_coding_transcript_exon_variant	NA	rs199474821	SNHL	MT-TS1	ENSG00000198840	NC_012920.1:m.7511T>C	T7511C	-	-	NA	MT:7511	1	-		priority
+non_coding_transcript_exon_variant	NA	rs118192098	MERRF; Other - LD / Depressive mood disorder / leukoencephalopathy / HiCM	MT-TK	ENSG00000198840	NC_012920.1:m.8344A>G	A8344G	-	-	NA	MT:8344	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs118192099	MERRF	MT-TK	ENSG00000198840	NC_012920.1:m.8356T>C	T8356C	-	-	NA	MT:8356	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	rs118192100	MICM+DEAF / MERRF / Autism / LS / Ataxia+Lipomas	MT-TK	ENSG00000198840	NC_012920.1:m.8363G>A	G8363A	-	-	NA	MT:8363	1	-	On Baylor 'common screen' by NGS	priority
+start_lost	NA	rs387906422	Infantile cardiomyopathy	MT-ATP8 / 6	ENSG00000198840	NC_012920.1:m.8528T>C	T8528C	-	-	NA	MT:8528	1	-		priority
+NA	NA	NA	NARP	MT-ATP6	NA	NA	T8618TT	NA	NA	NA	NA	NA	NA	Detected in NGN	priority
+missense_variant	NA	NA	New mutation	MT-ATP6	ENSG00000198840	NC_012920.1:m.8672T>C	T8672C	-	-	NA	MT:8672	1	-	Detected in NGN	priority
+stop_gained	NA	NA	New mutation	MT-ATP6	ENSG00000198840	NC_012920.1:m.8782G>A	G8782A	-	-	NA	MT:8782	1	-	Detected in NGN	priority
+missense_variant	NA	rs199476136	BSN / Leigh syndrome	MT-ATP6	ENSG00000198840	NC_012920.1:m.8851T>C	T8851C	-	-	NA	MT:8851	1	-	New in 2018	priority
+missense_variant	NA	rs794726857	"Mitochondrial myopathy, lactic acidosis and sideroblastic anemia (MLASA)"	MT-ATP6	ENSG00000198840	NC_012920.1:m.8969G>A	G8969A	-	-	NA	MT:8969	1	-	Seen in NGN cohort	priority
+missense_variant	NA	rs199476133	NARP / Leigh Disease / MILS / other	MT-ATP6	ENSG00000198840	NC_012920.1:m.8993T>C	T8993C	-	-	NA	MT:8993	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+-	NA	rs199476133	NARP / Leigh Disease / MILS / other	MT-ATP6	ENSG00000198840	NC_012920.1:m.8993T>C	T8993G	-	-	NA	MT:8993	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+missense_variant	NA	NA	Ataxia syndromes	MT-ATP6	ENSG00000198840	NC_012920.1:m.9035T>C	T9035C	-	-	NA	MT:9035	1	-	New in 2018	priority
+missense_variant	NA	rs199476135	Leigh Disease / Spastic Paraplegia	MT-ATP6	ENSG00000198840	NC_012920.1:m.9176T>C	T9176G	-	-	NA	MT:9176	1	-	On Baylor 'common screen' by NGS	priority
+missense_variant	NA	rs199476135	FBSN / Leigh Disease	MT-ATP6	ENSG00000198840	NC_012920.1:m.9176T>C	T9176C	-	-	NA	MT:9176	1	-	On Baylor 'common screen' by NGS	priority
+missense_variant	NA	rs199476138	Leigh Disease / Ataxia syndromes / NARP-like disease	MT-ATP6	ENSG00000198840	NC_012920.1:m.9185T>C	T9185C	-	-	NA	MT:9185	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+stop_lost	NA	NA	Encephalopathy / Seizures / Lacticacidemia	MT-ATP6	ENSG00000198840	NC_012920.1:m.9205T>A	9205-9206delTA	-	-	NA	MT:9205	1	-	New in 2018	priority
+stop_gained	NA	rs267606613	Mitochondrial Encephalopathy	MT-CO3	ENSG00000198840	NC_012920.1:m.9952G>A	G9952A	-	-	NA	MT:9952	1	-	Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs121434476	PEM	MT-TG	ENSG00000198840	NC_012920.1:m.10010T>C	T10010C	-	-	NA	MT:10010	1	-	On Baylor 'common screen' by NGS	priority
+-	NA	NA	New mutation	MT-TG	ENSG00000198840	NC_012920.1:m.10038G>A	G10038A	-	-	NA	MT:10038	1	-	Detected in NGN	priority
+missense_variant	NA	rs199476117	Leigh Disease	MT-ND3	ENSG00000198840	NC_012920.1:m.10158T>C	T10158C	Tcc/Ccc	S/P	NA	MT:10158	1	tolerated_low_confidence(0.07)	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+-	NA	rs267606890	Leigh Disease / Leigh-like Disease / ESOC	MT-ND3	ENSG00000198840	NC_012920.1:m.10191T>C	T10191C	Tcc/Ccc	S/P	NA	MT:10191	1	deleterious_low_confidence(0)	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+missense_variant	NA	rs267606891	Leigh Disease / Dystonia / Stroke / LDYT	MT-ND3	ENSG00000198840	NC_012920.1:m.10197G>A	G10197A	Gcc/Acc	A/T	NA	MT:10197	1	deleterious_low_confidence(0.02)	On Baylor 'common screen' by NGS	priority
+missense_variant	NA	rs193302933	LHON	MT-ND4L	ENSG00000198840	NC_012920.1:m.10663T>C	T10663C	-	-	NA	MT:10663	1	-	Seen in NGN cohort	priority
+missense_variant	NA	NA	CPEO	MT-ND4	ENSG00000198840	NC_012920.1:m.11232T>C	T11232C	-	-	NA	MT:11232	1	-	Seen in NGN cohort	priority
+-	NA	rs28384199	Leigh Disease	MT-ND4	ENSG00000198840	NC_012920.1:m.11777C>A	C11777A	-	-	NA	MT:11777	1	-	On Baylor 'common screen' by NGS	priority
+missense_variant	NA	rs199476112	LHON / Progressive Dystonia	MT-ND4	ENSG00000198840	NC_012920.1:m.11778G>A	G11778A	-	-	NA	MT:11778	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	rs121434474	MERRF-MELAS / Enchephalopathy	MT-TH	ENSG00000198840	NC_012920.1:m.12147G>A	G12147A	-	-	NA	MT:12147	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	rs118203888	DMDF / RP+SNHL	MT-TS2	ENSG00000198840	NC_012920.1:m.12258C>A	C12258A	-	-	NA	MT:12258	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	NA	CPEO	MT-TL2	ENSG00000198840	NC_012920.1:m.12276G>A	G12276A	-	-	NA	MT:12276	1	-	New in 2018	priority
+non_coding_transcript_exon_variant	NA	NA	CPEO / EXIT+Ophthalmoplegia	MT-TL2	ENSG00000198840	NC_012920.1:m.12294G>A	G12294A	-	-	NA	MT:12294	1	-	New in 2019	priority
+non_coding_transcript_exon_variant	NA	rs121434462	CPEO / KSS	MT-TL2	ENSG00000198840	NC_012920.1:m.12315G>A	G12315A	-	-	NA	MT:12315	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	NA	CPEO	MT-TL2	ENSG00000198840	NC_012920.1:m.12316G>A	G12316A	-	-	NA	MT:12316	1	-	New in 2018	priority
+non_coding_transcript_exon_variant	NA	rs121434463	MM	MT-TL2	ENSG00000198840	NC_012920.1:m.12320A>G	A12320G	-	-	NA	MT:12320	1	-	On Baylor 'common screen' by NGS	priority
+missense_variant	NA	rs267606893	Leigh Disease	MT-ND5	ENSG00000198840	NC_012920.1:m.12706T>C	T12706C	-	-	NA	MT:12706	1	-	Seen in NGN cohort	priority
+missense_variant	COSM5652748	rs267606898	Optic neuropathy/ retinopathy/ LD	MT-ND5	ENSG00000198840	NC_012920.1:m.13042G>A	G13042A	-	-	NA	MT:13042	1	-	New in 2018	priority
+missense_variant	NA	rs1131692063	LHON	MT-ND5	ENSG00000198840	NC_012920.1:m.13051G>A	G13051A	-	-	NA	MT:13051	1	-	RARE LHON	priority
+missense_variant	NA	NA	"Ataxia+PEO / MELAS, LD, myoclonus, fatigue"	MT-ND5	ENSG00000198840	NC_012920.1:m.13094T>C	T13094C	-	-	NA	MT:13094	1	-	Seen in NGN cohort	priority
+-	NA	rs267606897	Leigh Disease / MELAS / LHON-MELAS Overlap Syndrome	MT-ND5	ENSG00000198840	NC_012920.1:m.13513G>A	G13513A	-	-	NA	MT:13513	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+missense_variant	NA	rs587776440	Leigh Disease / MELAS	MT-ND5	ENSG00000198840	NC_012920.1:m.13514A>G	A13514G	-	-	NA	MT:13514	1	-	On Baylor 'common screen' by NGS	priority
+missense_variant	COSM1155555	NA	New mutation	MT-ND5	ENSG00000198840	NC_012920.1:m.14351T>C	T14351C	-	-	NA	MT:14351	1	-	Detected in NGN	priority
+missense_variant	COSM1155561	rs199476107	MELAS / Leigh Disease	MT-ND6	ENSG00000198840	NC_012920.1:m.14453G>A	G14453A	-	-	NA	MT:14453	1	-	Seen in NGN cohort	priority
+missense_variant	NA	rs199476105	LDYT / Leigh Disease	MT-ND6	ENSG00000198840	NC_012920.1:m.14459G>A	G14459A	-	-	NA	MT:14459	1	-	On Baylor 'common screen' by NGS	priority
+missense_variant	NA	rs199476108	LHON	MT-ND6	ENSG00000198840	NC_012920.1:m.14482C>A	C14482G	-	-	NA	MT:14482	1	-	New in 2019	priority
+missense_variant	NA	rs199476108	LHON	MT-ND6	ENSG00000198840	NC_012920.1:m.14482C>A	C14482A	-	-	NA	MT:14482	1	-	RARE LHON	priority
+missense_variant	NA	rs199476104	LHON	MT-ND6	ENSG00000198840	NC_012920.1:m.14484T>C	T14484C	-	-	NA	MT:14484	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+missense_variant	NA	rs199476109	Dystonia / Leigh Disease / Ataxia / Ptosis / Epilepsy	MT-ND6	ENSG00000198840	NC_012920.1:m.14487T>C	T14487C	-	-	NA	MT:14487	1	-	Seen in NGN cohort	priority
+missense_variant	NA	rs199476106	LHON	MT-ND6	ENSG00000198840	NC_012920.1:m.14495A>G	A14495G	-	-	NA	MT:14495	1	-	RARE LHON	priority
+missense_variant	NA	rs201327354	LHON	MT-ND6	ENSG00000198840	NC_012920.1:m.14502T>C	T14502C	-	-	NA	MT:14502	1	-	RARE LHON	priority
+missense_variant	COSM1138272	rs397515506	LHON	MT-ND6	ENSG00000198840	NC_012920.1:m.14568C>T	C14568T	-	-	NA	MT:14568	1	-		priority
+non_coding_transcript_exon_variant	NA	rs387906421	Reversible COX deficiency myopathy	MT-TE	ENSG00000198840	NC_012920.1:m.14674T>C	T14674C	-	-	NA	MT:14674	1	-	On Baylor 'common screen' by NGS/ Seen in NGN cohort	priority
+non_coding_transcript_exon_variant	NA	rs121434453	MM+DMDF / Encephalomyopathy / Dementia+diabetes+ophthalmoplegia	MT-TE	ENSG00000198840	NC_012920.1:m.14709T>C	T14709C	-	-	NA	MT:14709	1	-	On Baylor 'common screen' by NGS	priority
+non_coding_transcript_exon_variant	NA	NA	Encephalomyopathy + Retinopathy	MT-TE	ENSG00000198840	NC_012920.1:m.14710G>A	G14710A	-	-	NA	MT:14710	1	-	New in 2018	priority
+missense_variant	NA	rs207460004	EXIT / Septo-Optic Dysplasia	MT-CYB	ENSG00000198840	NC_012920.1:m.14849T>C	T14849C	-	-	NA	MT:14849	1	-		priority
+missense_variant	NA	NA	MELAS	MT-CYB	ENSG00000198840	NC_012920.1:m.14864T>C	T14864C	-	-	NA	MT:14864	1	-		priority
+missense_variant	NA	rs207460002	"Multisystem Disorder, EXIT"	MT-CYB	ENSG00000212907	NC_012920.1:m.15579A>G	A15579G	-	-	NA	MT:15579	1	-		priority
+missense_variant	NA	rs199476124	MELAS	MT-ND1	ENSG00000198888	NC_012920.1:m.3949T>C	T3949C	Tac/Cac	Y/H	NA	MT:3949	1	deleterious_low_confidence(0)		priority
+missense_variant	NA	rs199476121	LHON	MT-ND1	ENSG00000198888	NC_012920.1:m.4136A>G	A4136G	tAc/tGc	Y/C	NA	MT:4136	1	deleterious_low_confidence(0)		priority
+missense_variant	NA	rs199476119	LHON	MT-ND1	ENSG00000198888	NC_012920.1:m.4160T>C	T4160C	cTc/cCc	L/P	NA	MT:4160	1	deleterious_low_confidence(0)		priority
+non_coding_transcript_exon_variant	NA	rs121434468	Varied familial presentation / spastic paraparesis	MT-TI	ENSG00000198888	NC_012920.1:m.4284G>A	G4284A	-	-	NA	MT:4284	1	-		priority
+non_coding_transcript_exon_variant	NA	rs121434467	MHCM / Maternally inherited hypertension / Maternally inherited deafness	MT-TI	ENSG00000198888	NC_012920.1:m.4295A>G	A4295G	-	-	NA	MT:4295	1	-		priority
+non_coding_transcript_exon_variant	NA	rs121434465	FICP / poss. Hypertension / DEAF factor	MT-TI	ENSG00000198888	NC_012920.1:m.4317A>G	A4317G	-	-	NA	MT:4317	1	-		priority
+missense_variant	NA	rs267606889	Leigh Syndrome	MT-ND2	ENSG00000198888	NC_012920.1:m.4681T>C	T4681C	-	-	NA	MT:4681	1	-		priority
+non_coding_transcript_exon_variant	NA	rs199474674	Gastrointestinal Syndrome	MT-TW	ENSG00000198840	NC_012920.1:m.5532G>A	G5532A	-	-	NA	MT:5532	1	-		priority
+non_coding_transcript_exon_variant	NA	rs786200950	Myopathy	MT-TA	ENSG00000198840	NC_012920.1:m.5631G>A	G5631A	-	-	NA	MT:5631	1	-		priority
+missense_variant	NA	rs28461189	Therapy-Resistant Epilepsy	MT-CO1	ENSG00000198840	NC_012920.1:m.6489C>A	C6489A	-	-	NA	MT:6489	1	-		priority
+stop_lost	NA	rs199474822	LHON / SNHL / DEAF	MT-CO1	ENSG00000198840	NC_012920.1:m.7444G>A	G7444A	-	-	NA	MT:7444	1	-		priority
+non_coding_transcript_exon_variant	NA	NA	PEM / AMDF / Motor neuron disease-like	MT-TS1	ENSG00000198840	NC_012920.1:m.7472A>C	C7472insC	-	-	NA	MT:7472	1	-		priority
+non_coding_transcript_exon_variant	NA	rs118192102	DMDF / MERRF / HCM / epilepsy	MT-TK	ENSG00000198840	NC_012920.1:m.8296A>G	A8296G	-	-	NA	MT:8296	1	-		priority
+non_coding_transcript_exon_variant	NA	rs118192101	MNGIE / Progressive mito cytopathy	MT-TK	ENSG00000198840	NC_012920.1:m.8313G>A	G8313A	-	-	NA	MT:8313	1	-		priority
+missense_variant	NA	rs587776437	Leigh Disease	MT-CO3	ENSG00000198840	NC_012920.1:m.9478T>C	T9478C	-	-	NA	MT:9478	1	-		priority
+non_coding_transcript_exon_variant	NA	rs121434475	MHCM	MT-TG	ENSG00000198840	NC_012920.1:m.9997T>C	T9997C	-	-	NA	MT:9997	1	-		priority
+non_coding_transcript_exon_variant	NA	rs41362547	SIDS	MT-TG	ENSG00000198840	NC_012920.1:m.10044A>G	A10044G	-	-	NA	MT:10044	1	-		priority
+missense_variant	COSM6716767	rs200145866	LHON PD	MT-ND4	ENSG00000198840	NC_012920.1:m.11253T>C	T11253C	-	-	NA	MT:11253	1	-		priority
+missense_variant	NA	rs200873900	LHON / LDYT / DEAF / hypertension helper mut.	MT-ND4	ENSG00000198840	NC_012920.1:m.11696G>A	G11696A	-	-	NA	MT:11696	1	-		priority
+non_coding_transcript_exon_variant	NA	rs121434473	RP + DEAF	MT-TH	ENSG00000198840	NC_012920.1:m.12183G>A	G12183A	-	-	NA	MT:12183	1	-		priority
+missense_variant	NA	rs267606894	MELAS	MT-ND5	ENSG00000198840	NC_012920.1:m.12770A>G	A12770G	-	-	NA	MT:12770	1	-		priority
+missense_variant	NA	rs199974018	Possible LHON factor	MT-ND5	ENSG00000198840	NC_012920.1:m.12811T>C	T12811C	-	-	NA	MT:12811	1	-		priority
+missense_variant	NA	rs200855215	Possible LHON factor	MT-ND5	ENSG00000198840	NC_012920.1:m.13637A>G	A13637G	-	-	NA	MT:13637	1	-		priority
+missense_variant	NA	rs207460003	"HiCM / WPW, DEAF"	MT-CYB	ENSG00000212907	NC_012920.1:m.15498G>A	G15498A	-	-	NA	MT:15498	1	-		priority
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
