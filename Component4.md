@@ -28,3 +28,7 @@ Variant selection filtering with ILMN tentatively begins the 18th. Product testi
 
 ## To do (Mike):
 Drop Wolff-Parkinson-white syndrome variants from HGMD pulls
+
+## September fitler:
+To improve cost efficiency, trying to minimize to one beadpool.
+See script september filter for additional info.
