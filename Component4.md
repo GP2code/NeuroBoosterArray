@@ -31,3 +31,5 @@ Drop Wolff-Parkinson-white syndrome variants from HGMD pulls
 
 ## September filter:
 To improve cost efficiency, trying to minimize to one beadpool, see single_pool_filter_sept3rd2019.zip.
+### Note, we ahve updated the unique variants file to include ~2K more variants from the holden lab on september 5th.
+### This file is unique_variants_submitted-september5th_update.csv
