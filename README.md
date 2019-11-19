@@ -2,6 +2,12 @@
 
 Repo to track build of the "GloboNeuro" array, silly codename and all.
 
+# November revision note!!!
+Design wil be prioritize the new GDA array.  
+We have added SNVs fromthe systematic reivew with DM? designations as well as additional KoL variants and DIIs from the systematic reivew (acknowledging that many will fail scoring).  
+Once the scoring is done we will fill out the rest of the ~100K bead types with tag SNPs.
+See zip file dataed November 19th for content.
+
 ## Overall concept
 
 The overall concept is to make a content pack that will support the analysis of neurodegenerative disease (NDD) genetics. 
