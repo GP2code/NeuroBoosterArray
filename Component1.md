@@ -3,8 +3,9 @@
 #### 2. KOL SNP sumbissions
 
 ## HGMD systematic review
-Faraz systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below and Genomics England panel list. Similar to NeuroX and NeuroArray efforts.  
-Spreadsheet is in this repo as ```HGMD crawl - disease and gene based - v4```.
+Systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below and Genomics England panel list. 
+Similar to NeuroX and NeuroArray efforts.  
+Spreadsheet is in this repo as ```HGMD searches - disease and gene based - v4```.
 
 Used HGMD version: 2019-1
 
@@ -117,7 +118,7 @@ After filtering out duplicate gene and STR names, we get down to 590 candidate N
 
 Additional lysosomal storage disorder genes added by KoLs. We requeried HGMD includign these genes.
 
-#### In total we queried 625 genes in the file ```geneList.csv``` during the HGMD pull.
+#### In total we queried 625 genes in the file ```geneList.csv``` during the HGMD searches.
 
 ### Space concerns versus annotations
 It is likely that we will have to exclude the variants annotated with class "DM?" based on lack of evidence and INDELS due to array design issues.
