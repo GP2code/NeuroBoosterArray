@@ -24,12 +24,11 @@
 -Additional NDD locus tagging variants for locus saturation  
 
 ## Note: Illumina is handling making the general impute booster for GSA. An impute booster is not needed for MEG. NDD locus tagging variants will be added prior to array build and are a random sampling of multi-ancestry tag SNPs across NDD GWAS loci.
-Variant selection filtering with ILMN tentatively begins the 18th. Product testing cannot begin until August.
 
-## To do (Mike):
-Drop Wolff-Parkinson-white syndrome variants from HGMD pulls
+# Some of this was deprecated at design filtering with ILMN as they moved the array to GDA, which is a much better array itself.
 
 ## September filter:
-To improve cost efficiency, trying to minimize to one beadpool, see single_pool_filter_sept3rd2019.zip.
-### Note, we ahve updated the unique variants file to include ~2K more variants from the holden lab on september 5th.
+To improve cost efficiency, trying to minimize to one beadpool, see single_pool_filter_sept3rd2019.zip.  
+
+### Note, we have updated the unique variants file to include ~2K more variants from the holden lab on september 5th 2020.
 ### This file is unique_variants_submitted-september5th_update.csv
