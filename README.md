@@ -5,9 +5,9 @@ Now renamed the "NeuroBoosterArray" although it kinda sounds like a vitamin.
 
 Repo to track build of the "GloboNeuro" array, silly codename and all.
 
-# November revision note!!!
+# November revision note (2020)!!!
 Design wil be prioritize the new GDA array.  
-We have added SNVs fromthe systematic reivew with DM? designations as well as additional KoL variants and DIIs from the systematic reivew (acknowledging that many will fail scoring).  
+We have added SNVs from the systematic reivew with DM? designations as well as additional KoL variants and DIIs from the systematic reivew (acknowledging that many will fail scoring).  
 Once the scoring is done we will fill out the rest of the ~100K bead types with tag SNPs.
 See zip file dataed November 19th for content.
 
@@ -41,18 +41,16 @@ Content for aims 2 and 3 will be triaged based on available array real-estate. W
 
 #### Component 1: HGMD systematic review, GenomicsEngland query, plus KoL submitted variants.
 
-First step in this phase is to query the Human Genome Mutation Database (HGMD, https://www.qiagenbioinformatics.com/products/human-gene-mutation-database/) and extract all coding changes tagged with neurodegenerative disease outcomes.
-###### This is in progress and will likely be delivered the week of April 29th. We forecast ~11K variants in this subset of data.
+The next step is querying Genomics England disease-specific expert panels in concert with gnomad variant extraction.
 
-The second step is querying Genomics England disease-specific expert panels in concert with gnomad variant extraction.
+The following step is contact with KoLs. We will share the HGMD derived list with these individuals. We will allow them to add content to the list based on sequencing in familial samples, with preference to coding changes relating to risk for our diseases of interest.
 
-The third step is contact with KoLs. We will share the HGMD derived list with these individuals. We will allow them to add content to the list based on sequencing in familial samples, with preference to coding changes relating to risk for our diseases of interest.
+After that we query the Human Genome Mutation Database (HGMD, https://www.qiagenbioinformatics.com/products/human-gene-mutation-database/) and extract all coding changes tagged with neurodegenerative disease outcomes. This will be tiring. It is based on the two steps above. 
 
 These KoLs include:  
 International Parkinson's Disease Genomics Consortium principal investigators.  
 Henry Houlden, Kin Mok and Mie Rizig at University College London.  
 Bryan Traynor and Sonja Scholz at the US National Institutes of Health.
-###### We will allow 2 weeks for variant nomination by KoLs after delivery of the HGMD derived variant list. We forecast a maximum of ~15K total variants including the ~11K HGMD nominated variants.
 
 #### Component 2: Identifying multi-population tag SNPs.
 
@@ -69,8 +67,6 @@ We are focusing only on tags at a minor allele frequency (MAF) > 1% and an r2 > 
 Code for this and implementing the analysis on the NIH Biowulf Cluster (https://hpc.nih.gov) can be found in this repository.
 
 As a quick note, PLINKv1.9 (https://www.cog-genomics.org/plink2) was used for all LD comparisons w/in superpopulations (r2 > 0.2 w/in 1MB windows), it was also used for allele frequency calcs.
-
-Summary statistics from this analysis are downloadable from the following link here.
 
 #### Component 3: Dense Tagging of GWAS regions.
 
@@ -90,7 +86,7 @@ We identified most distal tag SNPs for each hit across all 6 super-populations.
 
 These regions identified here are considered our priority regions.
 
-Additionally the 1809 SNPs from the extended polygenic risk score (PRS) in Nalls et al, 2019 will be included.  
+Additionally the 1805 SNPs from the extended polygenic risk score (PRS) in Nalls et al, 2019 will be included.  
 
 Code for this analysis can be found in this repository.
 
@@ -99,13 +95,11 @@ Code for this analysis can be found in this repository.
 We have decided on 2 sets of tag SNPs for each chip based on available custom content per base array.
 
 Filtering for GSA based arrays:  
-GWAS region tagging filters for inclusion are as follows <--   
-General imputation booster filters for inclusion are as follows <--   
-###### This includes XX,XXX GWAS region tagging SNPs and XX,XXX general imputation boosting SNPs.  
+GWAS region tagging filters for inclusion are as follows
+General imputation booster filters for inclusion are as follows
 
 Filtering for MEG based arrays:  
-GWAS region tagging filters for inclusion are as follows <--   
-General imputation booster filters for inclusion are as follows <--   
-###### This includes XX,XXX GWAS region tagging SNPs and XX,XXX general imputation boosting SNPs.  
+GWAS region tagging filters for inclusion are as follows
+General imputation booster filters for inclusion are as follows
 
 Code for this analysis can be found in this repository.
