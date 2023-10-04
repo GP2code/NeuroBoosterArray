@@ -1,5 +1,5 @@
 # GloboNeuroArray  
-Now renamed the "NeuroBoosterArray" although it kina sounds like a vitamin.
+Now renamed the "NeuroBoosterArray" although it kinda sounds like a vitamin.
 
 # Annotated content [linked here](https://drive.google.com/drive/folders/1K8f-yn_VuwhL-Ff863EzCi61MHbGmgvu?usp=share_link) from VEP as of Dec '22.  
 
