@@ -1,11 +1,8 @@
 ## Component 3 content:
 
-#### GWAS hits for the array
-See the table in this repo ```GWAS_HITS.txt```
+### 1. GWAS hits selection
 
-#### Calculate tag SNP distances across populations in plink
-Then we ran the standard PLINK tagging routine within each tag set per population per CHR. Run on biowulf witha ```sinteractive --mem=24g``` node. Also cut out SNPs with duplicate rsIDs in the loop.
-
+### 2. Calculate tag SNP distances across populations
 ```
 for POP in AMR EAS EUR SAS AFR AAC
 do
@@ -17,12 +14,11 @@ do
 done
 ```
 
-#### Tag interval generation
+### 3. Tag interval generation
 Outputs from tagging were merged and most distant tag SNPs per GWAS hit were identified across the 6 popualtions.  
 250kb on each side of most distal tags were added to create intervals.  
-Intervals can be found in the repo as part of ```GWAS_TAGS.txt```.  
 
-#### Make the interval table to prioritize GWAS loci
+### 4. Make the interval table to prioritize GWAS loci
 First make a base file for each super-population in shell
 ```
 for POP in AMR EAS EUR SAS AFR AAC
@@ -81,4 +77,3 @@ data$maxSpan <- data$maxRight - data$minLeft
 write.table(data, "GWAS_TAGS.tab" , quote = F, sep = "\t", row.names = F)
 q("no")
 ```
-###### ```GWAS_TAGS.txt``` can be found in this repo.
