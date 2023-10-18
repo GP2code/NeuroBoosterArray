@@ -43,10 +43,10 @@ do
 done
 ```
 
-#### Calculating superpopulation r2s and allele freqs
+#### Calculate superpopulation r2s and allele freqs
 See the swarm scripts in this repo ```calcR2.sh``` and ```calcFreqs.sh```. Modules on biowulf used were PLINK and VCFtools.
 
-#### Formatting the r2 outputs for running TagIt
+#### Format the r2 outputs for running TagIt
 This transforms everything from the standard plink outputs in a unique TagIt format. The script formatR2s.R is in this repository as well.
 ```
 for POP in AMR EAS EUR SAS AFR AAC
@@ -61,14 +61,14 @@ do
 done
 ```
 
-#### Running TagIt in paralell on the cluster
+#### Run TagIt in paralell on the cluster
 See the script ```runTagIt.swarm``` in this repo.
 Run it with the line below.
 ```
 swarm -f runTagIt.swarm -g 120 -t 8 --module tagit --time 24:00:00
 ```
 
-#### Cleaning up the outputs
+#### Clean up the outputs
 ```
 # Summary files from TagIt
 
