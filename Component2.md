@@ -29,7 +29,7 @@ cat *.ids | wc -l
 Note, these numbers end up summing to 3395 samples out of the total of 3500 in the sample info file.  
 This is due to removal of the FIN popualtion (N = 105) and the file containing sample snot sequenced in this release (mainly Gambia project related samples).
 
-#### Next we make the per CHR files for each super-population
+#### Make the per CHR files for each super-population
 We are also filtering each superpopulation at MAC > 3 at this phase.
 
 ```
