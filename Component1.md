@@ -2,7 +2,7 @@
 #### 1. HGMD systematic review
 #### 2. KOL SNP sumbissions
 
-## HGMD systematic review
+### HGMD systematic review
 Systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below and Genomics England panel list.
 Spreadsheet is in this repo as ```HGMD searches - disease and gene based - v4```.
 
@@ -122,9 +122,9 @@ It is likely that we will have to exclude the variants annotated with class "DM?
 This would bring the count down from almost 90K to 55,712.
 If we further filter to just variants with rsIDs it goes to 21,612 variants.
 
-## KOL variant submissions
+### KOL variant submissions
 KOLs also submitted asianNDD, mito and additional pharmaco variants.
 These can be found in ```Asian_*_variants.txt and pharmaco_variants.txt```. Mitochondrial variants are pending.
 
-## PD risk PRS list
+### PD risk PRS list
 See the file in this repo ```PD_PRS.txt```. SNP IDs are in gr37, CHR:BP format.
