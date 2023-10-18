@@ -22,7 +22,7 @@ We are aiming to:
 
 ## Content:
 
-#### Component 1: HGMD systematic review
+#### Component 1: HGMD systematic review and key opinion leaders
 
 #### Component 2: Identifying multi-population tag SNPs.
 
