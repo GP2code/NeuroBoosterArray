@@ -1,4 +1,4 @@
-## 2 content packs (different but compatible levels of filtering) tuned for 2 different array backbones (GSA and MEG).
+## Component 4 content:
 
 1. NeuroGlobo_Basic - tuned for GSA - 50-80K SNPs in total (currently ~24K total variants in ```basic_content```)  
 -NDD GWAS hits (~200 variants) - NDD_GWAS_hits.txt   
@@ -17,18 +17,3 @@
 -Narendra PARK2 variants (~40 variants) - Narendra.PARK2_variants.csv  
 -Craig lab NDD variants (~1K variants) - Craig.NDD_variants.csv   
 -NDD locus tagging variants (Sample across regions to fill out remaining beadpool, pending)  
-
-2. NeuroGlobo_XL - tuned for MEG - NeuroGlobo_Basic + additional 50K  (currently ~53K variants in ```xl_content```)  
--Remainder of DM / non indel variants from HGMD variants (~40K in total) - NDD_HGMD.csv  
--Additonal candidate variants from the Houlden lab (~9K in total) - Houlden.Diverse_NDD.csv  
--Additional NDD locus tagging variants for locus saturation  
-
-## Note: Illumina is handling making the general impute booster for GSA. An impute booster is not needed for MEG. NDD locus tagging variants will be added prior to array build and are a random sampling of multi-ancestry tag SNPs across NDD GWAS loci.
-
-# Some of this was deprecated at design filtering with ILMN as they moved the array to GDA, which is a much better array itself.
-
-## September filter:
-To improve cost efficiency, trying to minimize to one beadpool, see single_pool_filter_sept3rd2019.zip.  
-
-### Note, we have updated the unique variants file to include ~2K more variants from the holden lab on september 5th 2020.
-### This file is unique_variants_submitted-september5th_update.csv
