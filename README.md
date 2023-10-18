@@ -8,7 +8,7 @@ Repository for the Neuro Booster Array developed in part by Data Tecnica Interna
 ## Summary
 This is the online repository for the for the manuscript titled ***"NeuroBooster Array: A Genome-Wide Genotyping Platform to Study Neurological Disorders Across Diverse Populations"***. 
 
-### Design Statement
+## Design Statement
 Please see the content linked here for the [variants on the GDA array (the backbone of neuro booster)](https://drive.google.com/file/d/19RKjwB-HI8Cf9n3sP_gYpkg-_lusOcgK/view?usp=sharing) plus [the >95K variants contributing the the neuro focused content](https://drive.google.com/file/d/1li50Oin0ctVQTFN5O9ctIKJw4i5Acisu/view?usp=sharing).
 
 ## Concept
