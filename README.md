@@ -3,6 +3,8 @@ Repository for the Neuro Booster Array developed in part by Data Tecnica Interna
 
 `GP2 ❤️ Open Science 😍`
 
+[![DOI](https://zenodo.org/badge/706455026.svg)](https://zenodo.org/doi/10.5281/zenodo.10018764)
+
 **Last Updated:** October 2023
 
 ## Summary
