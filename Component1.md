@@ -1,10 +1,9 @@
-## This component has 2 parts:
+## Component 1 content:
 #### 1. HGMD systematic review
 #### 2. KOL SNP sumbissions
 
 ## HGMD systematic review
-Systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below and Genomics England panel list. 
-Similar to NeuroX and NeuroArray efforts.  
+Systematically reviewed HGMD extracting all variants relating to the annotations for the diseases below and Genomics England panel list.
 Spreadsheet is in this repo as ```HGMD searches - disease and gene based - v4```.
 
 Used HGMD version: 2019-1
@@ -19,7 +18,6 @@ Nucleotide Deletions,Insertions and Indels = 20,082
 **Total variants = 89,891**
 
 ### Method
-
 We have searched for mutations which includes the following terms in their "disease/phenotypes" field:
 - Amyotrophic lateral sclerosis
 - Spastic paraplegia
@@ -84,7 +82,6 @@ We can possibily include the following "disease/phenotypes" as well:
 - Tourette syndrome
 
 ### Genomics England expert panel mining
-
 Data pull for Genomics England panels from May 9th 2019.
 Genes from the following diseases were extracted if they met the "Expert Review Green":
 - Amyotrophic lateral sclerosis_motor neuron disease
