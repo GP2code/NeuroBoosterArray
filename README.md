@@ -9,27 +9,17 @@ Repository for the Neuro Booster Array developed in part by Data Tecnica Interna
 This is the online repository for the for the manuscript titled ***"NeuroBooster Array: A Genome-Wide Genotyping Platform to Study Neurological Disorders Across Diverse Populations"***. 
 
 ## Design Statement
-Please see the content linked here for the [variants on the GDA array (the backbone of neuro booster)](https://drive.google.com/file/d/19RKjwB-HI8Cf9n3sP_gYpkg-_lusOcgK/view?usp=sharing) plus [the >95K variants contributing the the neuro focused content](https://drive.google.com/file/d/1li50Oin0ctVQTFN5O9ctIKJw4i5Acisu/view?usp=sharing).
+Please see the content linked here for the [variants on the GDA array (the backbone of Neuro booster)](https://drive.google.com/file/d/19RKjwB-HI8Cf9n3sP_gYpkg-_lusOcgK/view?usp=sharing) plus [custom content related to Neurodegenerative conditions](https://drive.google.com/file/d/1li50Oin0ctVQTFN5O9ctIKJw4i5Acisu/view?usp=sharing).
 
 ## Concept
 To make a content pack that will support the analysis of neurodegenerative disease (NDD) genetics. 
-###### This is in concert with Illumina ClinVar and PGX content packs regarding SNP selection. And a choice of either GSA or MEG back bones for primary content.
+###### This is in concert with Illumina ClinVar and PGX content packs regarding SNP selection. 
 
-## Content
-NDDs of interest include:  
-Parkinson's disease (PD)  
-Alzheimer's disease / general dementia (AD)  
-Dementia with Lewy bodies (DLB)  
-Amyotrophic Lateral Sclerosis (ALS)  
-Parasupranuclear palsy (PSP)  
-Frontotemporal Dementia (FTD)  
-
+## Goals
 We are aiming to:  
 1. Identify coding and rare familial variants of interest to researchers on the NDD field.  
 2. Improve imputation of known GWAS loci for NDDs across populations of diverse continental ancestries to facilitate trans-ethnic studies.  
 3. Generally improve imputation quality across populations of diverse continental ancestries to facilitate risk locus discovery.  
-
-###### Targeting design list prototype
 
 ## General design : 4 components
 
