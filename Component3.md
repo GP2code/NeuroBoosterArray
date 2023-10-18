@@ -1,7 +1,9 @@
-## GWAS hits for the array
+## Component 3 content:
+
+#### GWAS hits for the array
 See the table in this repo ```GWAS_HITS.txt```
 
-## This table was used to calculate tag SNP distances across populations in plink
+#### Calculate tag SNP distances across populations in plink
 Then we ran the standard PLINK tagging routine within each tag set per population per CHR. Run on biowulf witha ```sinteractive --mem=24g``` node. Also cut out SNPs with duplicate rsIDs in the loop.
 
 ```
@@ -15,12 +17,12 @@ do
 done
 ```
 
-## Tag interval generation
+#### Tag interval generation
 Outputs from tagging were merged and most distant tag SNPs per GWAS hit were identified across the 6 popualtions.  
 250kb on each side of most distal tags were added to create intervals.  
 Intervals can be found in the repo as part of ```GWAS_TAGS.txt```.  
 
-## Now time to make the interval table to prioritize GWAS loci
+#### Make the interval table to prioritize GWAS loci
 First make a base file for each super-population in shell
 ```
 for POP in AMR EAS EUR SAS AFR AAC
@@ -80,10 +82,3 @@ write.table(data, "GWAS_TAGS.tab" , quote = F, sep = "\t", row.names = F)
 q("no")
 ```
 ###### ```GWAS_TAGS.txt``` can be found in this repo.
-
-## A note on the file ```GWAS_TAGS.txt``` has a 20 dupelicate SNPs. Also, 4 SNPs were not well tagged due to low freq or not passing QC in 1K Genomes (GWAS comes from HRC). Many regions also overlap across hits / studies. 
-
-## We also reduced this file to unique hits that may overlap manually.
-Regions that overlap have been annotated as the same "superRegion".
-In total, priority are ~38.4 MB across 135 regions (collapsed overlap see ```GWAS_TAGS_annotated.txt```).
-
