@@ -13,7 +13,6 @@ Please see the content linked here for the [variants on the GDA array (the backb
 
 ## Concept
 To make a content pack that will support the analysis of neurodegenerative disease (NDD) genetics. 
-###### This is in concert with Illumina ClinVar and PGX content packs regarding SNP selection. 
 
 ## Goals
 We are aiming to:  
@@ -21,7 +20,7 @@ We are aiming to:
 2. Improve imputation of known GWAS loci for NDDs across populations of diverse continental ancestries to facilitate trans-ethnic studies.  
 3. Generally improve imputation quality across populations of diverse continental ancestries to facilitate risk locus discovery.  
 
-## General design : 4 components
+## Content:
 
 #### Component 1: HGMD systematic review
 
