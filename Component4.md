@@ -1,6 +1,6 @@
 ## Component 4 content:
 
-1. NeuroGlobo_Basic - tuned for GSA - 50-80K SNPs in total (currently ~24K total variants in ```basic_content```)  
+NeuroGlobo_Basic - tuned for GSA - 50-80K SNPs in total (currently ~24K total variants in ```basic_content```)  
 -NDD GWAS hits (~200 variants) - NDD_GWAS_hits.txt   
 -HGMD variants (~20K variants filtered for rsID, DM and not an indel, taken from Genomics England panel genes, KOL nominated genes and disease keywords) - NDD_HGMD_reduced.csv  
 -PD polygenic risk scoring variants (~2K variants) - NallsEtAl2019.PRS_gr37_PD.txt  
