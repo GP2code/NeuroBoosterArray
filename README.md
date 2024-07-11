@@ -13,6 +13,8 @@ This is the online repository for the for the manuscript titled ***"NeuroBooster
 ## Design Statement
 Please see the content linked here for the [variants on the GDA array (the backbone of Neuro booster)](https://drive.google.com/file/d/19RKjwB-HI8Cf9n3sP_gYpkg-_lusOcgK/view?usp=sharing) plus [custom content related to Neurodegenerative conditions](https://drive.google.com/file/d/1li50Oin0ctVQTFN5O9ctIKJw4i5Acisu/view?usp=sharing).
 
+Please visit the following google drive link for VEP annotations of the NBA snps: [ANNOTATIONS](https://drive.google.com/file/d/1LsmDBHZWqoRsTfLfixk5Zc_HupjYimcG/view?usp=drive_link)
+
 ## Concept
 To make a content pack that will support the analysis of neurodegenerative disease (NDD) genetics. 
 
